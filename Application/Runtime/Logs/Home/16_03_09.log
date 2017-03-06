@@ -1,0 +1,499 @@
+[ 2016-03-09T05:04:54+08:00 ] 66.249.69.124 /zhaopin/index.php/Home/Index/clzs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+ERR: 非法操作:clzs
+
+[ 2016-03-09T07:03:20+08:00 ] 62.210.170.165 /zhaopin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0454s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000708s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2016-03-09T14:07:28+08:00 ] 220.249.99.140 /zhaopin/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011314s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0336s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000678s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006490s ]
+
+[ 2016-03-09T14:07:28+08:00 ] 220.249.99.140 /zhaopin/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2016-03-09T14:07:29+08:00 ] 220.249.99.140 /zhaopin/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000813s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2016-03-09T15:43:20+08:00 ] 101.226.89.121 /zhaopin/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008381s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.1130s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000703s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009556s ]
+
+[ 2016-03-09T15:43:20+08:00 ] 220.249.99.140 /zhaopin/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007600s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.1505s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000693s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009983s ]
+
+[ 2016-03-09T15:43:21+08:00 ] 220.249.99.140 /zhaopin/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002834s ]
+
+[ 2016-03-09T15:43:35+08:00 ] 101.226.64.175 /zhaopin/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001740s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0024s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000680s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2016-03-09T15:43:38+08:00 ] 14.17.34.190 /zhaopin/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000711s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001643s ]
+
+[ 2016-03-09T16:03:51+08:00 ] 113.57.245.70 /zhaopin/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2016-03-09T16:03:53+08:00 ] 113.57.245.70 /zhaopin/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0301s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000678s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001675s ]
+
+[ 2016-03-09T16:03:53+08:00 ] 113.57.245.70 /zhaopin/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2016-03-09T16:16:29+08:00 ] 220.249.99.158 /zhaopin/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000342s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000702s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001709s ]
+
+[ 2016-03-09T16:16:29+08:00 ] 220.249.99.158 /zhaopin/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001850s ]
+
+[ 2016-03-09T16:16:31+08:00 ] 220.249.99.158 /zhaopin/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0024s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000316s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000675s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2016-03-09T16:16:35+08:00 ] 220.249.99.158 /zhaopin/index.php/Home/Index/ltjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000570s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2016-03-09T16:16:35+08:00 ] 220.249.99.158 /zhaopin/index.php/Home/Index/ltjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000521s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2016-03-09T16:16:38+08:00 ] 220.249.99.158 /zhaopin/index.php/Home/Index/xxjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000563s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2016-03-09T16:48:32+08:00 ] 58.19.3.88 /zhaopin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2016-03-09T16:48:32+08:00 ] 58.19.3.88 /zhaopin/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2016-03-09T16:48:32+08:00 ] 58.19.3.88 /zhaopin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000722s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001430s ]
+
+[ 2016-03-09T16:48:34+08:00 ] 58.19.3.88 /zhaopin/index.php/Home/Index/xxjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000554s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001918s ]
+
+[ 2016-03-09T16:48:34+08:00 ] 58.19.3.88 /zhaopin/index.php/Home/Index/xxjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000578s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001682s ]
+

@@ -1,0 +1,37 @@
+<include file="Public:header"/>
+      	<div class="container-fluid-full">
+		<div class="row-fluid">
+		   <include file="Public:slidersm"/>
+             <div class="right content">
+                <div class="right-menu">
+                	<p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>论坛说明</p>
+                	
+                </div>
+                <div class="main">
+                <div class="panel panel-default">
+                     <div class="panel-heading">
+					      <h3 class="panel-title">
+					          <i class="fa  icon-folder-open"></i>
+					         		修改集中论坛时间和论坛说明	          
+					      </h3>
+					 </div>
+         
+					   <script type="text/javascript" src="__PUBLIC__/Back/js/showdate.js"></script>
+                          <form id="page-select"  class="form-inline" role="form" name="set" action="__URL__/retime" method="post"></br>
+                         &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;请选择集中论坛时间：</br></br>
+                &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<input name="start_time" value="{$list.settime}" class="form-control inline systemtext" type="text" id="start_time" placeholder="请输入起始时间" onClick="return Calendar('start_time');" style="width:206px;background: #fefefe;border: 1px solid #bbb;font-size: 14px;color: #333;padding: 7px;border-radius: 3px;">           
+                &nbsp;&nbsp;到&nbsp;&nbsp;
+                <input name="end_time" value="{$list.finatime}" class="form-control inline systemtext" type="text" id="end_time" placeholder="请输入关闭时间" onClick="return Calendar('end_time');" style="width:206px;background: #fefefe;border: 1px solid #bbb;font-size: 14px;color: #333;padding: 7px;border-radius: 3px;">
+                
+                <input type="submit" class="btn btn-success right right-d2" style="margin-right:85px;" value="确定"/></br></br></form> </br>                                                         
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;集中论坛与论坛季的说明：</br></br>
+                <form action="__URL__/record?zd=ltsm" method="POST" name="jaj">
+                 &nbsp;&nbsp; &nbsp;&nbsp; <textarea rows="10" class="form-control" style="width:75%;display:inline-block;" name="con">{$con}</textarea>
+                <input type="submit" class="btn btn-success right right-d2" style="margin-right:100px;margin-top:140px;"value="确定"/></br></br>
+				</form>
+                      </div>
+               </div>
+             </div>      
+		</div>
+		</div>
+		<include file="Public:footer"/>

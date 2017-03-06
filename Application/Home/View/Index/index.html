@@ -1,0 +1,225 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>华中农业大学南湖国际青年科学家论坛</title>
+	<link href="__PUBLIC__/logo.png" rel="SHORTCUT ICON">
+	<meta name="keywords" content="华中农业大学南湖国际青年科学家论坛" />
+	<meta name="description" content="华中农业大学南湖国际青年科学家论坛中国•武汉•华中农业大学" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Front/css/header.css" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Front/css/content.css" />
+	<script type="text/javascript" src="__PUBLIC__/Front/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Front/js/koala.min.1.5.js"></script>
+	<script type="text/javascript">
+	function f1(){
+	    var user=document.getElementById('username').value;
+		var pwd=document.getElementById('password').value;
+		var code=document.getElementById('confirm').value;
+		var xhr=new XMLHttpRequest();
+		xhr.onreadystatechange=function(){
+		   if(xhr.readyState==4){
+		     //alert(xhr.responseText);
+		       var con=xhr.responseText;
+			   if(con=="登陆成功"){
+			       window.location.href="__APP__/Home/Apply/time";
+			   }else{
+			       alert(con);exit;
+			   }
+			}
+		}
+		xhr.open("get","__URL__/do_login?user="+user+"&password="+pwd+"&code="+code);
+		xhr.send("null");
+	}
+	function f2(){
+		var xhr=new XMLHttpRequest();
+		xhr.onreadystatechange=function(){
+		   if(xhr.readyState==4){
+		       if(xhr.responseText){
+			        var div1 = document.getElementById('unlog');  
+                        div1.style.display="block"; 
+		            var div2 = document.getElementById('loged');  
+                        div2.style.display="none";
+			   }else{
+			      alert("请刷新页面后重试");exit;
+			   }
+			}
+		}
+		xhr.open("get","__URL__/unsetsess");
+		xhr.send("null");
+	}
+
+	</script>
+	<script>
+		window.onload=function(){
+			var odiv=document.getElementById('div1');
+			var oul=odiv.getElementsByTagName('ul')[0];
+			var oli=oul.getElementsByTagName('li');
+			var oa=document.getElementsByTagName('a');
+			var speed=-2;
+			var timer=null;
+			oul.innerHTML+=oul.innerHTML;
+			oul.style.width=oli[0].offsetWidth*oli.length+'px';
+			function move(){
+				if(oul.offsetLeft<-oul.offsetWidth/2){
+					oul.style.left=0;
+				}
+				if(oul.offsetLeft>0){
+					oul.style.left=-oul.offsetWidth/2+'px';//////////////////////////why
+				}
+				oul.style.left=oul.offsetLeft+speed+'px';
+			}
+			timer=setInterval(move,30)
+			odiv.onmouseover=function(){
+				clearInterval(timer);
+			}
+			odiv.onmouseout=function(){
+				timer=setInterval(move,30);
+			}
+			oa[0].onclick=function(){
+				speed=-2;
+				
+			}
+			oa[1].onclick=function(){
+				speed=2;
+				
+			}
+		}
+	</script>
+</head>
+<body>
+
+	<include file="./Application/Home/View/Public/header.html" />
+	
+	<div id="content">
+		<div id="left">
+			<div class="login">
+				<!-- 未登录start -->
+				<div id="unlog">
+					<h1>登录/Login</h1>
+					<hr class="login_hr" />
+					<form action="">
+						<span class="login_left">
+							<i>用户名/Username</i>
+							<input type="text" id="username" placeholder="email"/>
+						</span>
+						<span class="login_left">
+							<i>密码/Password</i>
+							<input type="password" id="password" placeholder="password"/>
+						</span>
+						<!--<span>验证码：<input type="text" name="code" placeholder="验证码" /></span>-->
+						<span class="login_left">
+							<i>验证码/Verification Code</i>
+							<input type="password" id="confirm" style="width:80px;" placeholder="Code"/>
+							<img style="width:40%;height:20px;position:relative;top:5px;" src="__URL__/verify" id="code" onclick="this.src=this.src+'?'+Math.random()" class="code" />
+						</span>
+						<span><a href="javascript:f1();" class="denglu one">登录/Login</a></span>
+						<span><a href="__APP__/Home/Apply/zhuce" class="denglu two">注册/Register</a></span>
+						<span><a href="__APP__/Home/Apply/forget" class="forget">忘记密码？Forgot?</a></span>
+					</form>
+				</div>
+				<!-- 未登录end -->
+				<!-- 已登录时，将.unlogin的display改为none,.logined的display改为block -->
+				<!-- 已登录start -->
+				<div  style="display:none;" id="loged">
+					<h1>欢迎登录</h1>
+					<hr class="login_hr" />
+					<span class="welcome">欢迎您</span>
+					<span class="welcome">[{$sess}]</span>
+					<span class="welcome">登录华中农业大学南湖国际青年科学家论坛 </span>
+					<span><a href="__APP__/Home/Apply/time" class="denglu one">个人中心</a></span>
+					<span><a href="__APP__/Home/Apply/liuyan" class="denglu two">留言</a></span>
+					<span><a href="javascript:f2();" class="denglu three">注销</a></span>
+				</div>
+				<!-- 已登录end -->
+		    </div>
+		    <script type="text/javascript">
+		    	var sess="{$sess}";
+		 		if(sess=="1"){
+		     
+		 		}else{
+				    var div1 = document.getElementById('unlog');  
+		                div1.style.display="none"; 
+				    var div2 = document.getElementById('loged');  
+		                div2.style.display="block"; 
+		 		}
+		    </script>
+			<div class="contact_us">
+				<h1>联系/Contact</h1>
+				<hr class="login_hr hr2" style="margin-bottom:10px;"/>
+				<div>
+					<span>国际合作与交流处:李老师</span>
+					<span>+86（27）8728-1181</span>
+					<span>zhuanjia@mail.hzau.edu.cn</span>
+				</div>
+				<div>
+					<span>人事处: 赵老师</span>
+					<span>+86（27）8728-0957</span>
+					<span>rcb@mail.hzau.edu.cn</span>
+				</div>
+				<div>
+					<span>博士后协会副会长</span>
+					<span>HZAU Postdoctoral Consultant</span>
+					<span>Dr. Mohamed F. Foda</span>
+					<span>+86-13720279115 </span>
+					<span>m.frahat@fagr.bu.edu.eg</span>
+					<span>m.frahat@mail.hzau.edu.cn</span>
+				</div>
+			</div>
+		</div>
+
+		<div id="right">
+			<div class="about-img">
+				<img src="__PUBLIC__/Front/images/1.jpg" alt="">
+			</div>
+			<div class="new-container">
+				<div class="news">
+					<h1>最新通知/News<a href="__APP__/Home/Information/newinformation">More...</a></h1>
+					<hr class="login_hr hr4" />
+					<ul id="someinformation">
+						<volist name="information1" id="information1" offset="0" length='6'>
+							<li><a href="__APP__/Home/Information/information?id={$information1.id}">{$information1.title}</a></li>
+						</volist>
+					</ul>
+				</div>
+				<div class="news">
+					<!-- 活动版块 -->
+					<h1>工作动态/Works<a href="__APP__/Home/Information/newactivity">More...</a></h1>
+					<hr class="login_hr hr4" />
+					<ul  id="someactivity">
+						<volist name="information2" id="information2" offset="0" length='6'>
+							<li><a href="__APP__/Home/Information/information?id={$information2.id}">{$information2.title}</a></li>
+						</volist>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="about">
+			<h1>教学科研单位链接/Links</h1>
+			<div id="div1">
+				<ul>
+					<li><a href="http://cpst.hzau.edu.cn/" target="_blanket"><img src="__PUBLIC__/Front/images/x1.jpg" /></a></li>
+					<li><a href="http://my.hzau.edu.cn/" target="_blanket"><img src="__PUBLIC__/Front/images/x2.jpg" /></a></li>
+					<li><a href="http://zyhj.hzau.edu.cn/" target="_blanket"><img src="__PUBLIC__/Front/images/x3.jpg" /></a></li>
+					<li><a href="http://lst.hzau.edu.cn/" target="_blanket"><img src="__PUBLIC__/Front/images/x4.jpg" /></a></li>
+					<li><a href="http://linx.hzau.edu.cn/" target="_blanket"><img src="__PUBLIC__/Front/images/x5.jpg" /></a></li>
+					<li><a href="http://cf.hzau.edu.cn/" target="_blanket"><img src="__PUBLIC__/Front/images/x6.jpg" /></a></li>
+					<li><a href="http://cet.hzau.edu.cn/" target="_blanket"><img src="__PUBLIC__/Front/images/x7.jpg" /></a></li>
+					<li><a href="http://emc.hzau.edu.cn/" target="_blanket"><img src="__PUBLIC__/Front/images/x8.jpg" /></a></li>
+					<li><a href="http://shipin.hzau.edu.cn/" target="_blanket"><img src="__PUBLIC__/Front/images/x9.jpg" /></a></li>
+					<li><a href="http://lxy.hzau.edu.cn/" target="_blanket"><img src="__PUBLIC__/Front/images/x10.jpg" /></a></li>
+					<li><a href="http://wf.hzau.edu.cn/" target="_blanket"><img src="__PUBLIC__/Front/images/x11.jpg" /></a></li>
+					<li><a href="http://fld.hzau.edu.cn/" target="_blanket"><img src="__PUBLIC__/Front/images/x12.jpg" /></a></li>
+					<li><a href="http://sport.hzau.edu.cn/" target="_blanket"><img src="__PUBLIC__/Front/images/x13.jpg" /></a></li>
+					<li><a href="http://mks.hzau.edu.cn/" target="_blanket"><img src="__PUBLIC__/Front/images/x14.jpg" /></a></li>
+					<li><a href="http://ggxy.hzau.edu.cn/" target="_blanket"><img src="__PUBLIC__/Front/images/x15.jpg" /></a></li>
+					<li><a href="http://coi.hzau.edu.cn/" target="_blanket"><img src="__PUBLIC__/Front/images/x16.jpg" /></a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	<include file="./Application/Home/View/Public/footer.html" />
+</body>
+</html>

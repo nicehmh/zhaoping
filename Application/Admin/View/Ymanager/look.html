@@ -1,0 +1,70 @@
+<include file="Public:header"/>
+<script>
+   function f2(numid,pid){
+      var mes=confirm("您是否想将申请表退回\n给相应专家评审");
+      if(mes==true){
+	     window.location.href="__URL__/tuihui?numid="+numid+"&pid="+pid;
+	  }
+	 // window.open ("page.aspx", "newwindow", "height=100, width=400, toolbar =no, menubar=no,scrollbars=no, resizable=no, location=no, status=no");
+     // window.location.href="__URL__/tuihui?numid="+numid+"&pid="+pid;
+	  /*var xhr=new XMLHttpRequest();
+	  xhr.onreadystatechange=function(){
+	       if(xhr.readyState==4){
+		      alert(xhr.responseText);
+		   }
+	  }
+	  xhr.open('get',"__URL__/tuihui?numid="+numid+"&pid"+pid);
+	  xhr.send(null);*/
+   }
+</script>
+      	<div class="container-fluid-full">
+		<div class="row-fluid">
+		   <include file="Public:sliderym"/>
+             <div class="right content">
+                <div class="right-menu">
+                	<p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>个人中心</p>
+                	
+                </div>
+
+                    
+
+			<div class="main">
+                <div class="panel panel-default">
+                     <div class="panel-heading">
+					      <h3 class="panel-title">
+					          <i class="fa  icon-folder-open"></i>
+					         评审信息	          
+					      </h3>
+					 </div>
+                    
+					  <table class="table table-bordered table-striped border">
+                          <tr>
+                          	<th style="text-align:center;">评审人</th>
+                          	<th style="text-align:center;">得分合计</th>
+                          	<th style="text-align:center;">鉴定结论</th>
+                          	<th style="text-align:center;">管理</th>
+                          </tr>   	
+			  <volist name="list" id="list">
+                          <tr>
+                            <td style="text-align:center;">{$list.tr1}</td>
+                            <td style="text-align:center;">{$list.sum}</td>
+                            <td style="text-align:center;">{$list.assess}</td>
+                            <td style="text-align:center;">
+							<a class="btn btn-xs btn-info" href="__URL__/hl1?tid={$list.tid}" ><i class="icon-edit">查看具体意见</i></a>
+							 <a class="btn btn-xs btn-info" href="javascript:f2({$list.numid},{$list.pid});" ><i class="icon-edit">退回</i></a></td>
+                          </tr>			
+                        </volist>			  
+				      </table><!--打算用颜色区分校专家，院管理员，院专家评审人-->
+						  </div>
+						</div>
+
+
+
+               </div>
+             </div>
+             <div style="text-align: center;color:#000;">
+                 			{$page}
+						</div>
+		</div>
+		</div>
+		<include file="Public:footer"/>

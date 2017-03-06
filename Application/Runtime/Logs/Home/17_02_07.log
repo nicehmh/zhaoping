@@ -1,0 +1,1858 @@
+[ 2017-02-07T01:40:19+08:00 ] 183.129.160.229 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T02:48:59+08:00 ] 185.110.132.231 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T02:52:48+08:00 ] 143.48.140.250 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T02:52:49+08:00 ] 143.48.140.250 /index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T02:52:49+08:00 ] 143.48.140.250 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T02:52:54+08:00 ] 143.48.140.250 /index.php/Home/Information/information?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T02:52:54+08:00 ] 143.48.140.250 /index.php/Home/Information/information?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T02:53:04+08:00 ] 143.48.140.250 /index.php/Home/Information/newinformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '最新通知' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T02:53:05+08:00 ] 143.48.140.250 /index.php/Home/Information/newinformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '最新通知' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T02:53:08+08:00 ] 143.48.140.250 /index.php/Home/Information/information?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.015625s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_information` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T02:53:08+08:00 ] 143.48.140.250 /index.php/Home/Information/information?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T05:58:42+08:00 ] 134.84.110.179 /index.php/Home/Index/ltjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T05:58:44+08:00 ] 134.84.110.179 /index.php/Home/Index/ltjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T05:58:50+08:00 ] 134.84.110.179 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T05:58:51+08:00 ] 134.84.110.179 /index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T05:58:52+08:00 ] 134.84.110.179 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T05:59:04+08:00 ] 134.84.110.179 /index.php/Home/Index/do_login?user=kailzeng@gmail.com&password=zzk20080808&code=2N16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T05:59:07+08:00 ] 134.84.110.179 /index.php/Home/Index/verify?0.9122660418613797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T05:59:14+08:00 ] 134.84.110.179 /index.php/Home/Index/do_login?user=kailzeng@gmail.com&password=zzk20080808&code=7681
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'kailzeng@gmail.com' AND `password` = 'zzk20080808' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-02-07T05:59:14+08:00 ] 134.84.110.179 /index.php/Home/Apply/time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: change C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 282 行.
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-02-07T05:59:15+08:00 ] 134.84.110.179 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T05:59:16+08:00 ] 134.84.110.179 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T06:00:04+08:00 ] 134.84.110.179 /index.php/Home/Apply/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zp_education_experience` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `zp_education_experience` WHERE `aid` = 26 [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zp_work_experience` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `zp_work_experience` WHERE `aid` = 26 [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('26','农学 学士','200509','200906','动物营养与饲料','华南农业大学') [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('26','硕士','200909','201106','动物营养与饲料','中国农业大学') [ RunTime:0.0156s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('26','博士','201209','201506','动物营养与饲料','中国农业大学') [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_work_experience` (`aid`,`job`,`job_start_time`,`job_end_time`,`nation`,`company`) VALUES ('26','配方经理','201107','201208','中国','希杰饲料') [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_work_experience` (`aid`,`job`,`job_start_time`,`job_end_time`,`nation`,`company`) VALUES ('26','博士后','201507','至今','美国','明尼苏达大学双城校区') [ RunTime:0.0156s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\zhaopin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] finfo_file(): Empty filename or path C:\wamp\www\zhaopin\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'kailzeng@gmail.com' AND `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 217 行.
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zp_application` SET `name`='曾志凯',`birthday`='1987/05/08',`word_area`='美国',`card`='身份证',`cardid`='421083198705083819',`email`='kailzeng@gmail.com',`job`='博士后',`phone`='6124067391',`address`='1268 Fifield Avenue, Saint Paul. MN, 55108',`sex`='男',`major`='生命科学(Life Science)',`jianjie`='主要专注于饲料营养价值评定，纤维降解，饲料酶制剂及植物提取物应用等，发表多篇相关学术论文。
+•	Zeng, Z. K., J. L. Zhu, C. Chen, G. C. Shurson*, and P. E. Urriola. 2017. Improvement of ileal digestibility of dm and gross energy by commercial carbohydrases is associated with depression of fermentability in an in vitro digestibility determination system. J. Anim. Sci. (Abstract), 248.
+•	Zeng, Z. K., G. C. Shurson*, C. Chen, and P. E. Urriola. 2017. Effects of adding multi-enzymes to growing pig diets containing wheat and corn fiber sources on growth performance, nutrient digestibility, and digesta viscosity. J. Anim. Sci. (Abstract), 249.
+•	Zeng, Z. K., G. C. Shurson*, and P. E. Urriola. 2016. Prediction of the concentration of standardized ileal digestible (SID) amino acids among sources of distillers dried grains with solubles (DDGS) for growing pigs: A meta-analysis. J. Anim. Sci. (Abstract), 225.
+•	Zeng, Z. K., Q. Y. Li, P. F. Zhao, X. Xu, Q. Y. Tian, H. L. Wang, L. Pan, S. Yu, and X. S. Piao*. 2016. A new phytase continuously hydrolyzes phytate and improves amino acid digestibility and mineral balance in growing pigs fed phosphorous-deficient diet. J. Anim. Sci. 94:629-638.
+•	Zeng, Z. K., X. Xu, Q. Zhang, P. Li, P. F. Zhao, Q. Y. Li, J. D. Liu, X. S. Piao*. 2015. Effects of essential oil supplementation of a low-energy diet on performance, intestinal morphology and microflora, immune properties and antioxidant activities in weaned pigs. Anim. Sci J. 86:279-285.
+•	Zeng, Z. K., S. Zhang, H. L. Wang and X. S. Piao*. 2015. Essential oil and aromatic plants as feed additives in non-ruminant nutrition: A review. J. Anim. Sci. Biotechnology 6:1-7.
+•	Zeng, Z. K., Q. Y. Li, X. S. Piao*, J. D. Liu, P. F. Zhao, X. Xu, S. Zhang, and S. Niu. 2014. Forsythia suspensa extract attenuates corticosterone-induced growth inhibition, oxidative injury and immune depression in broilers. Poult. Sci. 93:1774-1781.
+•	Zeng, Z. K., Q. Y. Li, Q. Y. Tian, P. F Zhao, X Xu, S. K. Yu, and X. S. Piao*. 2015. Super high dosing with a novel Buttiauxella phytase continuously improves growth performance, nutrient digestibility and mineral status of weaned pigs Biol. Trace Elem. Res. 168:103-109.
+•	Wang, D., Z. K. Zeng, X. S. Piao*, P. F. Li, L. F. Xue, Q. Zhang, X. Han, H. Y. Zhang, B. Dong and S. W. Kim. 2011. Effects of keratinase supplementation of corn-soybean meal based diets on apparent ileal amino acid digestibility in growing pigs and serum amino acids, cytokines, immunoglobulin levels and loin muscle area in nursery pigs. Arch. Anim. Nutr. 65:209-302.
+•	Li, Q. Y., X. S. Piao*, J. D. Liu, Z. K. Zeng, S. Zhang, and X. J. Lei. 2014. Determination and Prediction of the Energy Content and Amino Acid Digestibility in Peanut Meals Fed to Growing Pigs. Arch. Anim. Nutr. 68:196-210.
+',`title`='Fiber degradation and exogenous carbohydrases efficacy evaluation by in vitro system
+纤维降解与外源饲料纤维酶的体外评价',`photo`='5898f1e4a037a.JPG',`file`=NULL WHERE ( aid=26 ) [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T06:00:06+08:00 ] 134.84.110.179 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T06:00:07+08:00 ] 134.84.110.179 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T06:00:31+08:00 ] 134.84.110.179 /index.php/Home/Apply/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zp_education_experience` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `zp_education_experience` WHERE `aid` = 26 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zp_work_experience` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `zp_work_experience` WHERE `aid` = 26 [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('26','农学 学士','200509','200906','动物营养与饲料','华南农业大学') [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('26','硕士','200909','201106','动物营养与饲料','中国农业大学') [ RunTime:0.0156s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('26','博士','201209','201506','动物营养与饲料','中国农业大学') [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_work_experience` (`aid`,`job`,`job_start_time`,`job_end_time`,`nation`,`company`) VALUES ('26','配方经理','201107','201208','中国','希杰饲料') [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_work_experience` (`aid`,`job`,`job_start_time`,`job_end_time`,`nation`,`company`) VALUES ('26','博士后','201507','至今','美国','明尼苏达大学双城校区') [ RunTime:0.0156s ]
+NOTIC: [2] finfo_file(): Empty filename or path C:\wamp\www\zhaopin\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\zhaopin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'kailzeng@gmail.com' AND `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 216 行.
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zp_application` SET `name`='曾志凯',`birthday`='1987/05/08',`word_area`='美国',`card`='身份证',`cardid`='421083198705083819',`email`='kailzeng@gmail.com',`job`='博士后',`phone`='6124067391',`address`='1268 Fifield Avenue, Saint Paul. MN, 55108',`sex`='男',`major`='生命科学(Life Science)',`jianjie`='主要专注于饲料营养价值评定，纤维降解，饲料酶制剂及植物提取物应用等，发表多篇相关学术论文。
+•	Zeng, Z. K., J. L. Zhu, C. Chen, G. C. Shurson*, and P. E. Urriola. 2017. Improvement of ileal digestibility of dm and gross energy by commercial carbohydrases is associated with depression of fermentability in an in vitro digestibility determination system. J. Anim. Sci. (Abstract), 248.
+•	Zeng, Z. K., G. C. Shurson*, C. Chen, and P. E. Urriola. 2017. Effects of adding multi-enzymes to growing pig diets containing wheat and corn fiber sources on growth performance, nutrient digestibility, and digesta viscosity. J. Anim. Sci. (Abstract), 249.
+•	Zeng, Z. K., G. C. Shurson*, and P. E. Urriola. 2016. Prediction of the concentration of standardized ileal digestible (SID) amino acids among sources of distillers dried grains with solubles (DDGS) for growing pigs: A meta-analysis. J. Anim. Sci. (Abstract), 225.
+•	Zeng, Z. K., Q. Y. Li, P. F. Zhao, X. Xu, Q. Y. Tian, H. L. Wang, L. Pan, S. Yu, and X. S. Piao*. 2016. A new phytase continuously hydrolyzes phytate and improves amino acid digestibility and mineral balance in growing pigs fed phosphorous-deficient diet. J. Anim. Sci. 94:629-638.
+•	Zeng, Z. K., X. Xu, Q. Zhang, P. Li, P. F. Zhao, Q. Y. Li, J. D. Liu, X. S. Piao*. 2015. Effects of essential oil supplementation of a low-energy diet on performance, intestinal morphology and microflora, immune properties and antioxidant activities in weaned pigs. Anim. Sci J. 86:279-285.
+•	Zeng, Z. K., S. Zhang, H. L. Wang and X. S. Piao*. 2015. Essential oil and aromatic plants as feed additives in non-ruminant nutrition: A review. J. Anim. Sci. Biotechnology 6:1-7.
+•	Zeng, Z. K., Q. Y. Li, X. S. Piao*, J. D. Liu, P. F. Zhao, X. Xu, S. Zhang, and S. Niu. 2014. Forsythia suspensa extract attenuates corticosterone-induced growth inhibition, oxidative injury and immune depression in broilers. Poult. Sci. 93:1774-1781.
+•	Zeng, Z. K., Q. Y. Li, Q. Y. Tian, P. F Zhao, X Xu, S. K. Yu, and X. S. Piao*. 2015. Super high dosing with a novel Buttiauxella phytase continuously improves growth performance, nutrient digestibility and mineral status of weaned pigs Biol. Trace Elem. Res. 168:103-109.
+•	Wang, D., Z. K. Zeng, X. S. Piao*, P. F. Li, L. F. Xue, Q. Zhang, X. Han, H. Y. Zhang, B. Dong and S. W. Kim. 2011. Effects of keratinase supplementation of corn-soybean meal based diets on apparent ileal amino acid digestibility in growing pigs and serum amino acids, cytokines, immunoglobulin levels and loin muscle area in nursery pigs. Arch. Anim. Nutr. 65:209-302.
+•	Li, Q. Y., X. S. Piao*, J. D. Liu, Z. K. Zeng, S. Zhang, and X. J. Lei. 2014. Determination and Prediction of the Energy Content and Amino Acid Digestibility in Peanut Meals Fed to Growing Pigs. Arch. Anim. Nutr. 68:196-210.
+',`title`='Fiber degradation and exogenous carbohydrases efficacy evaluation by in vitro system
+纤维降解与外源饲料纤维酶的体外评价',`photo`=NULL,`file`='5898f1ffdd40a.doc' WHERE ( aid=26 ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T06:00:33+08:00 ] 134.84.110.179 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T06:00:34+08:00 ] 134.84.110.179 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T06:00:52+08:00 ] 134.84.110.179 /index.php/Home/Apply/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zp_education_experience` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `zp_education_experience` WHERE `aid` = 26 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zp_work_experience` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0156s ]
+SQL: DELETE FROM `zp_work_experience` WHERE `aid` = 26 [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('26','农学 学士','200509','200906','动物营养与饲料','华南农业大学') [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('26','硕士','200909','201106','动物营养与饲料','中国农业大学') [ RunTime:0.0156s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('26','博士','201209','201506','动物营养与饲料','中国农业大学') [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_work_experience` (`aid`,`job`,`job_start_time`,`job_end_time`,`nation`,`company`) VALUES ('26','配方经理','201107','201208','中国','希杰饲料') [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_work_experience` (`aid`,`job`,`job_start_time`,`job_end_time`,`nation`,`company`) VALUES ('26','博士后','201507','至今','美国','明尼苏达大学双城校区') [ RunTime:0.0156s ]
+NOTIC: [2] finfo_file(): Empty filename or path C:\wamp\www\zhaopin\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\zhaopin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'kailzeng@gmail.com' AND `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 216 行.
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zp_application` SET `name`='曾志凯',`birthday`='1987/05/08',`word_area`='美国',`card`='身份证',`cardid`='421083198705083819',`email`='kailzeng@gmail.com',`job`='博士后',`phone`='6124067391',`address`='1268 Fifield Avenue, Saint Paul. MN, 55108',`sex`='男',`major`='生命科学(Life Science)',`jianjie`='主要专注于饲料营养价值评定，纤维降解，饲料酶制剂及植物提取物应用等，发表多篇相关学术论文。
+•	Zeng, Z. K., J. L. Zhu, C. Chen, G. C. Shurson*, and P. E. Urriola. 2017. Improvement of ileal digestibility of dm and gross energy by commercial carbohydrases is associated with depression of fermentability in an in vitro digestibility determination system. J. Anim. Sci. (Abstract), 248.
+•	Zeng, Z. K., G. C. Shurson*, C. Chen, and P. E. Urriola. 2017. Effects of adding multi-enzymes to growing pig diets containing wheat and corn fiber sources on growth performance, nutrient digestibility, and digesta viscosity. J. Anim. Sci. (Abstract), 249.
+•	Zeng, Z. K., G. C. Shurson*, and P. E. Urriola. 2016. Prediction of the concentration of standardized ileal digestible (SID) amino acids among sources of distillers dried grains with solubles (DDGS) for growing pigs: A meta-analysis. J. Anim. Sci. (Abstract), 225.
+•	Zeng, Z. K., Q. Y. Li, P. F. Zhao, X. Xu, Q. Y. Tian, H. L. Wang, L. Pan, S. Yu, and X. S. Piao*. 2016. A new phytase continuously hydrolyzes phytate and improves amino acid digestibility and mineral balance in growing pigs fed phosphorous-deficient diet. J. Anim. Sci. 94:629-638.
+•	Zeng, Z. K., X. Xu, Q. Zhang, P. Li, P. F. Zhao, Q. Y. Li, J. D. Liu, X. S. Piao*. 2015. Effects of essential oil supplementation of a low-energy diet on performance, intestinal morphology and microflora, immune properties and antioxidant activities in weaned pigs. Anim. Sci J. 86:279-285.
+•	Zeng, Z. K., S. Zhang, H. L. Wang and X. S. Piao*. 2015. Essential oil and aromatic plants as feed additives in non-ruminant nutrition: A review. J. Anim. Sci. Biotechnology 6:1-7.
+•	Zeng, Z. K., Q. Y. Li, X. S. Piao*, J. D. Liu, P. F. Zhao, X. Xu, S. Zhang, and S. Niu. 2014. Forsythia suspensa extract attenuates corticosterone-induced growth inhibition, oxidative injury and immune depression in broilers. Poult. Sci. 93:1774-1781.
+•	Zeng, Z. K., Q. Y. Li, Q. Y. Tian, P. F Zhao, X Xu, S. K. Yu, and X. S. Piao*. 2015. Super high dosing with a novel Buttiauxella phytase continuously improves growth performance, nutrient digestibility and mineral status of weaned pigs Biol. Trace Elem. Res. 168:103-109.
+•	Wang, D., Z. K. Zeng, X. S. Piao*, P. F. Li, L. F. Xue, Q. Zhang, X. Han, H. Y. Zhang, B. Dong and S. W. Kim. 2011. Effects of keratinase supplementation of corn-soybean meal based diets on apparent ileal amino acid digestibility in growing pigs and serum amino acids, cytokines, immunoglobulin levels and loin muscle area in nursery pigs. Arch. Anim. Nutr. 65:209-302.
+•	Li, Q. Y., X. S. Piao*, J. D. Liu, Z. K. Zeng, S. Zhang, and X. J. Lei. 2014. Determination and Prediction of the Energy Content and Amino Acid Digestibility in Peanut Meals Fed to Growing Pigs. Arch. Anim. Nutr. 68:196-210.
+',`title`='Fiber degradation and exogenous carbohydrases efficacy evaluation by in vitro system
+纤维降解与外源饲料纤维酶的体外评价',`photo`=NULL,`file`='5898f214d59f8.doc' WHERE ( aid=26 ) [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T06:00:54+08:00 ] 134.84.110.179 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T06:00:55+08:00 ] 134.84.110.179 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'kailzeng@gmail.com' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T06:01:02+08:00 ] 134.84.110.179 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T06:01:02+08:00 ] 134.84.110.179 /index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T06:01:02+08:00 ] 134.84.110.179 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-02-07T06:01:11+08:00 ] 134.84.110.179 /index.php/Home/Information/information?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T06:01:12+08:00 ] 134.84.110.179 /index.php/Home/Information/information?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T06:32:44+08:00 ] 180.97.215.107 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T07:40:22+08:00 ] 76.31.153.13 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T09:48:33+08:00 ] 122.205.70.13 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T09:48:33+08:00 ] 122.205.70.13 /index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T09:48:34+08:00 ] 122.205.70.13 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T09:56:31+08:00 ] 113.240.250.156 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T09:56:59+08:00 ] 113.240.250.156 
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T09:57:00+08:00 ] 113.240.250.156 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T09:57:00+08:00 ] 113.240.250.156 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T10:01:01+08:00 ] 113.240.250.156 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:30:24+08:00 ] 122.205.67.102 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:30:24+08:00 ] 122.205.67.102 /index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:30:24+08:00 ] 122.205.67.102 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:30:45+08:00 ] 122.205.67.102 /index.php/Home/Information/information?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:30:45+08:00 ] 122.205.67.102 /index.php/Home/Information/information?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:00+08:00 ] 122.205.67.102 /index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:02+08:00 ] 122.205.67.102 /index.php/Home/Information/information?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:02+08:00 ] 122.205.67.102 /index.php/Home/Information/information?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:06+08:00 ] 122.205.67.102 /index.php/Home/Index/ltjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:06+08:00 ] 122.205.67.102 /index.php/Home/Index/ltjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:20+08:00 ] 122.205.67.102 /index.php/Home/Index/xxjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:20+08:00 ] 122.205.67.102 /index.php/Home/Index/xxjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:21+08:00 ] 122.205.67.102 /index.php/Home/Index/rczp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-02-07T14:31:21+08:00 ] 122.205.67.102 /index.php/Home/Index/rczp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:25+08:00 ] 122.205.67.102 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:25+08:00 ] 122.205.67.102 /index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:25+08:00 ] 122.205.67.102 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:27+08:00 ] 122.205.67.102 /index.php/Home/Index/xytx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_img` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_img`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:28+08:00 ] 122.205.67.102 /index.php/Home/Index/xytx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_img` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_img`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:33+08:00 ] 122.205.67.102 /index.php/Home/Index/xytx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_img` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_img`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:33+08:00 ] 122.205.67.102 /index.php/Home/Index/xytx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_img` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_img`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:34+08:00 ] 122.205.67.102 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-02-07T14:31:34+08:00 ] 122.205.67.102 /index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:34+08:00 ] 122.205.67.102 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:39+08:00 ] 122.205.67.102 /index.php/Home/Index/ltjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T14:31:39+08:00 ] 122.205.67.102 /index.php/Home/Index/ltjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T16:02:09+08:00 ] 112.26.233.90 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T16:02:10+08:00 ] 112.26.233.90 /index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-02-07T16:02:11+08:00 ] 112.26.233.90 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T16:02:18+08:00 ] 180.163.2.118 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T16:15:19+08:00 ] 71.43.7.58 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T18:45:43+08:00 ] 120.25.103.140 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T22:26:05+08:00 ] 60.191.38.77 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

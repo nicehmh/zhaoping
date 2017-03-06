@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>华中农业大学南湖国际青年科学家论坛</title>
+	<link href="__PUBLIC__/logo.png" rel="SHORTCUT ICON">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Front/css/header.css" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Front/css/content2.css" />
+	<script type="text/javascript" src="__PUBLIC__/Front/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Front/js/koala.min.1.5.js"></script>
+	<script type="text/javascript">
+      function  register(){
+        var nm=document.getElementById('name').value;
+        var pwd=document.getElementById('password').value;
+		var code=document.getElementById('code').value;
+		if(nm == "" || pwd == "") {
+			return;
+		}
+       var xhr=new XMLHttpRequest();
+        xhr.onreadystatechange=function(){
+          if(xhr.readyState==4){
+              if(xhr.responseText=="注册成功"){
+			       window.location.href="__URL__/time";
+			  }else{
+			       alert(xhr.responseText);
+			  }
+          }
+        } 
+        xhr.open('get','__URL__/register?name='+nm+'&password='+pwd+'&code='+code);
+        xhr.send(null);
+      }
+	  function checkpwd(){
+	        var repwd=document.getElementById("confirm").value;
+			var pwd=document.getElementById('password').value;
+			if(repwd==pwd){
+			     
+			}else{
+			     document.getElementById("tx").innerHTML="<h4 style='color:red'> 　　密码不一致</h4>";
+			}
+	  }
+	  function checkuser(){
+	        var user=document.getElementById("name").value;
+			  var xhr=new XMLHttpRequest();
+          xhr.onreadystatechange=function(){
+           if(xhr.readyState==4){
+              if(xhr.responseText=="true"){
+			       alert('您所填写的邮箱已被使用');
+			  }
+           }
+         } 
+        xhr.open('get','__URL__/checkuser?user='+user);
+        xhr.send(null);
+	  }
+  </script>
+</head>
+<body>
+	<!-- head start  -->
+	<include file="./Application/Home/View/Public/header.html" />
+	<!-- head end -->
+	<div id="content2">
+		<h1>注册</h1>
+		<hr />
+		<form action="" class="zhuce">
+			<span><i>用户名 username</i><input type="text" id="name" onblur="checkuser()"/><h6>　 * 请使用常用邮箱注册，后续通知将由邮件发送！(Commonly used E-mail )</h6></span>
+			<span><i>密　码 password</i><input type="password" id="password" name="pwd"/><h6>　 * 至少8位，区分大小写 (At least 8 bits, case sensitive)</h6></span>
+			<span><i>确定密码 confirm password</i><input type="password" id="confirm" onblur="checkpwd()"/><h6 id="tx">　 * 至少8位，区分大小写。(At least 8 bits, case sensitive)</h6></span>
+			<span><i>验证码 Verification Code</i><input type="password" id="code" /><h5>　  <img src="__URL__/verify" id="codeimg" onclick="this.src=this.src+'?'+Math.random()" class="code" /><a class="fresh" onClick="fresh();">　点击更换 change</a></h5></span>
+			<script type="text/javascript">
+				var code=document.getElementById('codeimg');
+				function fresh(){
+					code.src=code.src+'?'+Math.random();
+				}
+			</script>
+			<span><input type="button" name="submit" value="注册 register" class="submit left" onClick="register()" style="width: 150px;"><input type="submit" name="reset" value="重置 reset" class="submit" style="width: 150px;"></span>
+		</form>
+		
+	</div>
+	<!-- foot start -->
+	<include file="./Application/Home/View/Public/footer.html" />
+	<!-- footer end -->
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>华中农业大学南湖国际青年科学家论坛</title>
+	<link href="__PUBLIC__/logo.png" rel="SHORTCUT ICON">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Front/css/header.css" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Front/css/content2.css" />
+	<script type="text/javascript" src="__PUBLIC__/Front/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Front/js/koala.min.1.5.js"></script>
+	<script type="text/javascript">
+	function f1(){
+	    var con=document.getElementById('con').value;
+		var con=encodeURIComponent(con);
+	    var xhr=new XMLHttpRequest();
+		xhr.onreadystatechange=function(){
+		   if(xhr.readyState==4){
+		       alert(xhr.responseText);
+			    window.location.href="__APP__/Home/Index/index";
+		   }
+		}
+		 xhr.open("post","__URL__/recon");
+		xhr.setRequestHeader('content-type','application/x-www-form-urlencoded');
+		xhr.send("con="+con);
+	}
+	</script>
+</head>
+<body>
+	<include file="./Application/Home/View/Public/header.html" />
+	<div id="content2">
+		<h1>留言</h1>
+		<form action="">
+			<textarea name="" id="con" class="liuyan"></textarea>
+			<a href="javascript:f1();" class="submit_liuyan">提交留言</a>
+		</form>
+	</div>
+	<include file="./Application/Home/View/Public/footer.html" />
+</body>
+</html>

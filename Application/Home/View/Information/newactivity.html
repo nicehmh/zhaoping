@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>华中农业大学南湖国际青年科学家论坛</title>
+	<link href="__PUBLIC__/logo.png" rel="SHORTCUT ICON">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Front/css/header.css" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Front/css/content2.css" />
+	<script type="text/javascript" src="__PUBLIC__/Front/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Front/js/koala.min.1.5.js"></script>
+	<style>
+		#information li{
+			width:90%;
+			height:35px;
+			font-size:14px;
+			letter-spacing:1px;
+			line-height:35px;
+			color:#444;
+			border-bottom:1px dotted black;
+			background:url(__PUBLIC__/Front/images/arrow_go.png) no-repeat left center;
+			text-indent:20px;
+			display:block;
+		}
+
+		#information li i{
+			font-style:normal;
+			height:30px;
+			float:right;
+		}
+		#information li a:hover{
+			color:orange;
+		}
+		#information{
+			margin-bottom:40px;
+		}
+	</style>
+</head>
+<body>
+	<include file="./Application/Home/View/Public/header.html" />
+	<div id="content2">
+		<h1>工作动态</h1>
+		<hr />
+		<span style="text-indent:36px;">
+		<ul id="information">
+			<volist name="information" id="result">
+				<li><a href="__APP__/Home/Information/information?id={$result.id}">{$result.title}</a><i>{$result.time}</i></li>
+			</volist>
+		</ul>
+		</span>
+	</div>
+	<include file="./Application/Home/View/Public/footer.html" />
+</body>
+</html>

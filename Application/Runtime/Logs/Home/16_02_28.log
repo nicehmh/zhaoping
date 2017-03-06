@@ -1,0 +1,486 @@
+[ 2016-02-28T15:24:16+08:00 ] ::1 /zhaopin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004878s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.1181s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '活动'  [ RunTime:0.0309s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '活动' ORDER BY id desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000437s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000916s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008786s ]
+
+[ 2016-02-28T15:24:18+08:00 ] ::1 /zhaopin/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005549s ]
+
+[ 2016-02-28T15:24:23+08:00 ] ::1 /zhaopin/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004725s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0219s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '活动'  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '活动' ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000537s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020134s ]
+
+[ 2016-02-28T15:24:23+08:00 ] ::1 /zhaopin/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.068946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.069648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005283s ]
+
+[ 2016-02-28T19:28:40+08:00 ] ::1 /zhaopin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002638s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0875s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '活动'  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '活动' ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004525s ]
+
+[ 2016-02-28T19:28:41+08:00 ] ::1 /zhaopin/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004145s ]
+
+[ 2016-02-28T19:28:41+08:00 ] ::1 /zhaopin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008658s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '活动'  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0036s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '活动' ORDER BY id desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001647s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002715s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001641s ]
+
+[ 2016-02-28T19:28:50+08:00 ] ::1 /zhaopin/index.php/Home/Information/newinformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002554s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.1029s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.260337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.260610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002754s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003420s ]
+
+[ 2016-02-28T19:28:51+08:00 ] ::1 /zhaopin/index.php/Home/Information/newinformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002566s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002454s ]
+
+[ 2016-02-28T19:28:54+08:00 ] ::1 /zhaopin/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0379s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '活动'  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '活动' ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000627s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004121s ]
+
+[ 2016-02-28T19:28:55+08:00 ] ::1 /zhaopin/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002324s ]
+
+[ 2016-02-28T19:28:55+08:00 ] ::1 /zhaopin/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0195s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '活动'  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '活动' ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004260s ]
+
+[ 2016-02-28T19:29:10+08:00 ] ::1 /zhaopin/index.php/Home/Index/do_login?user=admin&password=123456&code=0535
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007733s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0375s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'admin' AND `password` = '123456' LIMIT 1   [ RunTime:0.0559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002092s ]
+
+[ 2016-02-28T19:29:25+08:00 ] ::1 /zhaopin/index.php/Home/Index/do_login?user=admin&password=admin&code=0535
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002399s ]
+
+[ 2016-02-28T19:29:28+08:00 ] ::1 /zhaopin/index.php/Home/Apply/zhuce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002285s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000412s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000653s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.330747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.331009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002033s ]
+
+[ 2016-02-28T19:29:28+08:00 ] ::1 /zhaopin/index.php/Home/Apply/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002675s ]
+
+[ 2016-02-28T19:29:28+08:00 ] ::1 /zhaopin/index.php/Home/Apply/zhuce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004590s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000485s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002569s ]
+
+[ 2016-02-28T19:29:55+08:00 ] ::1 /zhaopin/index.php/Home/Apply/register?name=admin1&password=a&code=5283
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003552s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.1144s ]
+SQL: INSERT INTO `zp_applicant` (`user`,`password`) VALUES ('admin1','a') [ RunTime:0.0621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001573s ]
+
+[ 2016-02-28T19:29:55+08:00 ] ::1 /zhaopin/index.php/Home/Apply/time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002198s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0299s ]
+NOTIC: [8] Undefined index: change E:\ruanjian\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 198 行.
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'admin1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 17 LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000542s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005526s ]
+
+[ 2016-02-28T19:29:56+08:00 ] ::1 /zhaopin/index.php/Home/Apply/time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003267s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: change E:\ruanjian\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 198 行.
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'admin1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0329s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 17 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000499s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005084s ]
+
+[ 2016-02-28T19:30:02+08:00 ] ::1 /zhaopin/index.php/Home/Apply/retime?time=%E9%9B%86%E4%B8%AD%E8%AE%BA%E5%9D%9B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002044s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'admin1' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 17 LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `zp_application` (`time`,`aid`) VALUES ('集中论坛','17') [ RunTime:0.0427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002140s ]
+
+[ 2016-02-28T19:30:04+08:00 ] ::1 /zhaopin/index.php/Home/Apply/apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001883s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.1222s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'admin1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 17 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zp_education` [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `zp_work` [ RunTime:0.0658s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 17 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zp_education` WHERE `uid` = 17  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zp_work` WHERE `uid` = 17  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: str4 E:\ruanjian\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 31 行.
+NOTIC: [8] Undefined variable: str5 E:\ruanjian\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 32 行.
+NOTIC: [8] Undefined offset: 1 E:\ruanjian\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0704s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'admin1' LIMIT 1   [ RunTime:0.0145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: jgcon E:\ruanjian\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.331933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.332236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005285s ]
+
+[ 2016-02-28T19:30:05+08:00 ] ::1 /zhaopin/index.php/Home/Apply/apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000629s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002632s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'admin1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0397s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 17 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `zp_education` [ RunTime:0.0228s ]
+SQL: SHOW COLUMNS FROM `zp_work` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 17 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zp_education` WHERE `uid` = 17  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zp_work` WHERE `uid` = 17  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: str4 E:\ruanjian\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 31 行.
+NOTIC: [8] Undefined variable: str5 E:\ruanjian\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 32 行.
+NOTIC: [8] Undefined offset: 1 E:\ruanjian\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.1255s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'admin1' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000498s ]
+NOTIC: [8] Undefined variable: jgcon E:\ruanjian\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004673s ]
+
+[ 2016-02-28T19:30:11+08:00 ] ::1 /zhaopin/index.php/Home/Apply/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010731s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:1.1817s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.1966s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'admin1' LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 17 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] finfo_file(): Empty filename or path E:\ruanjian\wamp\www\zhaopin\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path E:\ruanjian\wamp\www\zhaopin\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.539481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.539707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004205s ]
+

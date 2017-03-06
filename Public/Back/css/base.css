@@ -1,0 +1,48 @@
+*{
+	margin: 0; padding:0;
+}
+p{font-size: 15px;}
+ul{list-style: none;}
+a{text-decoration: none;color:#fff;}
+a:hover{text-decoration: none;color:#dcdcdc;}
+.fa{margin-left: 10px;margin-right: 10px;}
+.fa1{margin-left: 10px;margin-right: 5px;}
+.arrow{margin-right:20px;float: right; margin-top: 17px;}
+.right{float: right;}
+.left{float: left;}
+.right-d2{margin-right: 66px;}
+.theme{color:#3A3A3A;}
+.span6{width: 100%;margin:20px;}
+.small{width: 164px;}
+
+/*表单中元素的控制*/
+
+.control1{
+	margin-left: 200px;
+	width: 50%;
+	margin-top: 8px;
+}
+.control2{
+	margin-top: 20px;
+}
+.control4{
+	margin-top: 8px;
+}
+.control3{
+	margin-left: 200px;
+	width: 50%;
+	margin-top: 20px;
+}
+.control5{
+    margin-left: 200px;
+	width: 80%;
+	margin-top: 8px;
+	height: 400px;
+}
+
+.button1{
+	margin-left:40%;
+}
+.button2{
+	margin-left: 2%;
+}

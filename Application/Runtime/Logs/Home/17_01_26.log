@@ -1,0 +1,1710 @@
+[ 2017-01-26T04:38:30+08:00 ] 129.186.251.52 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:38:32+08:00 ] 129.186.251.52 /index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:38:33+08:00 ] 129.186.251.52 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:38:38+08:00 ] 129.186.251.52 /index.php/Home/Index/rczp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-01-26T04:38:39+08:00 ] 129.186.251.52 /index.php/Home/Index/rczp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:40:12+08:00 ] 129.186.251.52 /index.php/Home/Apply/zhuce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:40:12+08:00 ] 129.186.251.52 /index.php/Home/Apply/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:40:13+08:00 ] 129.186.251.52 /index.php/Home/Apply/zhuce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:40:23+08:00 ] 129.186.251.52 /index.php/Home/Apply/checkuser?user=xifeng@iastate.edu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:40:46+08:00 ] 129.186.251.52 /index.php/Home/Apply/register?name=xifeng@iastate.edu&password=FXss370685&code=3662
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_applicant` (`user`,`password`) VALUES ('xifeng@iastate.edu','FXss370685') [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:40:47+08:00 ] 129.186.251.52 /index.php/Home/Apply/time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: change C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 282 行.
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:40:48+08:00 ] 129.186.251.52 /index.php/Home/Apply/time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: change C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 282 行.
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:41:15+08:00 ] 129.186.251.52 /index.php/Home/Apply/retime?time=2017-5-17@2017-5-19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_application` (`time`,`aid`) VALUES ('2017-5-17@2017-5-19','28') [ RunTime:0.0313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:41:17+08:00 ] 129.186.251.52 /index.php/Home/Apply/apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str4 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: str5 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:41:18+08:00 ] 129.186.251.52 /index.php/Home/Apply/apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str4 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: str5 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:42:24+08:00 ] 129.186.251.52 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:42:25+08:00 ] 129.186.251.52 /index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:42:25+08:00 ] 129.186.251.52 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:42:29+08:00 ] 129.186.251.52 /index.php/Home/Apply/time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: change C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 282 行.
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-01-26T04:42:29+08:00 ] 129.186.251.52 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str4 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: str5 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:42:29+08:00 ] 129.186.251.52 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str4 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: str5 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:42:36+08:00 ] 129.186.251.52 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:42:37+08:00 ] 129.186.251.52 /index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:42:37+08:00 ] 129.186.251.52 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:42:42+08:00 ] 129.186.251.52 /index.php/Home/Information/information?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:42:43+08:00 ] 129.186.251.52 /index.php/Home/Information/information?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:42:54+08:00 ] 129.186.251.52 /index.php/Home/Index/ltjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:42:55+08:00 ] 129.186.251.52 /index.php/Home/Index/ltjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:43:13+08:00 ] 129.186.251.52 /index.php/Home/Apply/time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: change C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 282 行.
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-01-26T04:43:14+08:00 ] 129.186.251.52 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 28  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str4 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: str5 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T04:43:14+08:00 ] 129.186.251.52 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str4 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: str5 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:02:08+08:00 ] 101.226.65.102 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = null  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str4 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: str5 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 44 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 57 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:02:11+08:00 ] 129.186.251.52 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = null  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str4 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: str5 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 44 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 57 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:02:32+08:00 ] 129.186.251.52 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:02:32+08:00 ] 129.186.251.52 /index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:02:42+08:00 ] 101.226.89.117 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:02:59+08:00 ] 129.186.251.52 /index.php/Home/Index/do_login?user=xifeng@iastate.edu&password=FXss370685&code=2662
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' AND `password` = 'FXss370685' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:02:59+08:00 ] 129.186.251.52 /index.php/Home/Apply/time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: change C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 282 行.
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-01-26T05:02:59+08:00 ] 129.186.251.52 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str4 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: str5 C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:03:09+08:00 ] 180.163.2.88 /index.php/Home/Apply/time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: change C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 282 行.
+NOTIC: [8] Undefined index: user C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 285 行.
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:07:48+08:00 ] 65.44.91.67 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:09:42+08:00 ] 129.186.251.52 /index.php/Home/Apply/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zp_education_experience` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zp_work_experience` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('28','Ph.D','201208','201612','Meat Science','Iowa State University ') [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('28','M.S','200809','201207','Food Science','Huazhong Agricultural University') [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('28','B.E','200409','200807','Food Science Technology and Engineering','Huazhong Agricultural University') [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_work_experience` (`aid`,`job`,`job_start_time`,`job_end_time`,`nation`,`company`) VALUES ('28','Postdoctoral Researcher','201701','Present','United States','Iowa State University') [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\zhaopin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] finfo_file(): Empty filename or path C:\wamp\www\zhaopin\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' AND `aid` = 28 LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 217 行.
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zp_application` SET `name`='Feng, Xi ',`birthday`='1984.09.08',`word_area`='United States',`card`='护照',`cardid`='G60753608',`email`='xifeng@iastate.edu',`job`='Postdoctoral Researcher',`phone`='1-515-708-0036',`address`='240 Raphael Ave., Unit 1, Ames, IA United States 50014',`sex`='男',`major`='化学（Chemistry）',`jianjie`='Dr. Xi Feng obtained his BE and MS from Huazhong Agricultural University in 2008 and 2012. He was awarded the Ph.D degree from Iowa State University, Ames, IA, USA, 2016. Dr. Feng’s research interests focus on the food chemistry, particularly functional food and food flavors. Dr. Feng has published 16 papers and 1 book chapters. In addition, Dr. Feng has also been serving as a review panel member for Food Chemistry, Food Research International and Food Science &amp; Nutrition.
+
+1. Referred Journal Articles:
+1.1 Non-thermal technologies (irradiation):
+(1) Feng, X., Lee, E. J., Nam, K., Jo, C., Ko, K., &amp; Ahn, D. U. (2016). Mechanisms of volatile production from amino acid esters by irradiation. Food Research International, 81, 100-107.
+(2) Feng, X., Moon, S.H., Lee, H.Y., &amp; Ahn, D.U. (2016). Effect of irradiation on the degradation of nucleotides in turkey meat. LWT-Food Science and Technology, 73, 88-94.
+(3) Feng, X., &amp; Ahn, D. U. (2016). Volatile profile, lipid oxidation and protein oxidation of irradiated Ready-to-Eat cured turkey meat products. Radiation Physics and Chemistry, 127, 27-33.
+(4) Feng, X., Moon, S.H., Lee, H.Y., &amp; Ahn, D.U. (2016). Effect of irradiation on the parameters that influence quality characteristics of raw turkey breast meat. Radiation Physics and Chemistry, 130, 40-46.
+(5) Feng, X., Moon, S.H., Lee, H.Y., &amp; Ahn, D.U. (2016). Effect of irradiation on the parameters that influence quality characteristics of uncured and cured cooked turkey meat products. Poultry Science, 95, 2986-2992.
+(6) Feng, X. Jo, C., Nam, K.C., &amp; Ahn, D.U. (2016). Effect of irradiation on the parameters that influence quality characteristics of raw beef loin. Meat Science, under review.
+(7) Ahn, D. U., Lee, E. J., Feng, X., Zhang, W., Lee, J. H., Jo, C., &amp; Nam, K. (2016). Mechanisms of volatile production from non-sulfur amino acids by irradiation. Radiation Physics and Chemistry, 119, 64-73.
+(8) Ahn, D. U., Lee, E. J., Feng, X., Zhang, W., Lee, J. H., Jo, C., &amp; Nam, K. (2016). Mechanisms of volatile production from sulfur-containing amino acids by irradiation. Radiation Physics and Chemistry, 119, 80-84. 
+
+1.2 Products development:
+(1) Feng, X., Sebranek, J.G., Lee, H.Y., &amp; Ahn, D.U. (2016). Effects of adding red wine on the physicochemical properties and sensory characteristics of uncured frankfurter-type sausage. Meat Science, 121, 285-291.
+(2) Zhu, B., Li, B., Gao, Q., Fan, J., Gao, P., Ma, M., &amp; Feng, X. (2013). Predicting texture of cooked blended rice with pasting properties. International Journal of Food Properties, 16, 485-499.
+
+1.3 Animal physiology:
+(1) Moon, S. H., Lee, I., Feng, X., Lee, H. Y., Kim, J., &amp; Ahn, D. U. (2015). Effect of dietary beta-glucan on the performance of live broilers and the quality of broiler breast meat. Asian-Australasian Journal of Animal Sciences, 29 (3), 384-389.
+
+1.4 Natural products:
+(1) Feng, X., Cheng, G., Chen, S., Yang, H., &amp; Huang, W. (2010). Evaluation of the burn healing properties of oil extraction from housefly larva in mice. Journal of Ethnopharmacology, 130(3), 586-92.
+(2) Khaskheli, S. G., Zheng, W., Sheikh, S. A., Khaskheli, A. A., Liu, Y., Soomro, A. H., Feng, X., Sauer, M. B., Wang, Y. F., &amp; Huang, W. (2015). Characterization of Auricularia auricula polysaccharides and its antioxidant properties in fresh and pickled product. International Journal of Biological Macromolecules, 81, 387-95.
+
+Taste formations in traditional Chinses dishes:
+(1) Feng, X., Cheng, G., He, X., Yang, H., Sha, S., &amp; Huang, W. Effect of cooking conditions on the flavor formation and adulteration detection by cluster analysis of the traditional Chinese chicken soup. Czech Journal of Food Science, under review.
+(2) Zhao, S., Feng, X., Duan, C., Tang, J., Lei, X., Ibrahim, S., &amp; Huang, W. Effect of cooking methods on the chemical compounds associated with umami taste in duck breast meat. Journal of the Science of Food and Agriculture, under review. (co-first author)
+(3) Feng, X., Zhang, K., Zhang, K., &amp; Huang, W. (2010). Study on the key processing technologies of lotus root soup with pork ribs. Journal of Food Science, 31(10): 330-335. (In Chinese)
+(4) Feng, X., Li, Y., Zhang, K., &amp; Huang, W. (2009). Study on the traditional cooking method of lotus root soup with pork ribs. Journal of Science and Technology in Food Industry, 30(8), 221-223. (In Chinese)
+(5) Huang, Y., Li, F., Feng, X., Kang, L., &amp; Huang, W. (2010). Prolonging shelf life of fish cake by the additions of nisin, ε-polylysine and potassium sorbate. Journal of Food Science, 31(08), 285-289. (In Chinese)
+(6) Wang, Y., He, X., Yue, X., Feng, X., &amp; Huang, W. (2010). Effect of cooking condition on quality of chicken soup and texture analysis of chicken muscle. Journal of Food Science, 31(09), 120-125. (In Chinese)
+
+2. Book Chapter:
+Ahn, D. U., Mendonca, A., &amp; Feng, X. (2017). Chapter 8. The storage and preservation of meat: II Non-thermal technologies. In Lawrie’s Meat Science. Ed. F. Toldrá. Woodhead Publishing: Cambridge, UK.',`title`='Identification and characterization of off-odor and off-taste compounds in irradiated ready-to-eat (RTE) cooked meat products',`photo`='588914162625a.JPG',`file`=NULL WHERE ( aid=28 ) [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-01-26T05:09:44+08:00 ] 129.186.251.52 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:09:49+08:00 ] 180.153.214.200 /index.php/Home/Apply/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 114 行.
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:09:49+08:00 ] 101.226.89.115 /index.php/Home/Apply/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: user C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 114 行.
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:09:49+08:00 ] 101.226.66.177 /index.php/Home/Apply/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 114 行.
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = null LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:09:49+08:00 ] 101.226.51.228 /index.php/Home/Apply/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 114 行.
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:10:27+08:00 ] 129.186.251.52 /index.php/Home/Apply/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zp_education_experience` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `zp_education_experience` WHERE `aid` = 28 [ RunTime:0.0313s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zp_work_experience` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `zp_work_experience` WHERE `aid` = 28 [ RunTime:0.0313s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('28','Ph.D','201208','201612','Meat Science','Iowa State University ') [ RunTime:0.0156s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('28','M.S','200809','201207','Food Science','Huazhong Agricultural Universi') [ RunTime:0.0156s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('28','B.E','200409','200807','Food Science Technology and En','Huazhong Agricultural Universi') [ RunTime:0.0156s ]
+SQL: INSERT INTO `zp_work_experience` (`aid`,`job`,`job_start_time`,`job_end_time`,`nation`,`company`) VALUES ('28','Postdoctoral Researc','201701','Present','United States','Iowa State Universit') [ RunTime:0.0156s ]
+NOTIC: [2] finfo_file(): Empty filename or path C:\wamp\www\zhaopin\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path C:\wamp\www\zhaopin\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' AND `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `photo`,`file` FROM `zp_application` WHERE ( aid=28 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zp_application` SET `name`='Feng, Xi ',`birthday`='1984.09.08',`word_area`='United States',`card`='护照',`cardid`='G60753608',`email`='xifeng@iastate.edu',`job`='Postdoctoral Researcher',`phone`='1-515-708-',`address`='240 Raphael Ave., Unit 1, Ames, IA United States 5',`sex`='男',`major`='化学（Chemistry）',`jianjie`='Dr. Xi Feng obtained his BE and MS from Huazhong Agricultural University in 2008 and 2012. He was awarded the Ph.D degree from Iowa State University, Ames, IA, USA, 2016. Dr. Feng’s research interests focus on the food chemistry, particularly functional food and food flavors. Dr. Feng has published 16 papers and 1 book chapters. In addition, Dr. Feng has also been serving as a review panel member for Food Chemistry, Food Research International and Food Science &amp; Nutrition.
+
+1. Referred Journal Articles:
+1.1 Non-thermal technologies (irradiation):
+(1) Feng, X., Lee, E. J., Nam, K., Jo, C., Ko, K., &amp; Ahn, D. U. (2016). Mechanisms of volatile production from amino acid esters by irradiation. Food Research International, 81, 100-107.
+(2) Feng, X., Moon, S.H., Lee, H.Y., &amp; Ahn, D.U. (2016). Effect of irradiation on the degradation of nucleotides in turkey meat. LWT-Food Science and Technology, 73, 88-94.
+(3) Feng, X., &amp; Ahn, D. U. (2016). Volatile profile, lipid oxidation and protein oxidation of irradiated Ready-to-Eat cured turkey meat products. Radiation Physics and Chemistry, 127, 27-33.
+(4) Feng, X., Moon, S.H., Lee, H.Y., &amp; Ahn, D.U. (2016). Effect of irradiation on the parameters that influence quality characteristics of raw turkey breast meat. Radiation Physics and Chemistry, 130, 40-46.
+(5) Feng, X., Moon, S.H., Lee, H.Y., &amp; Ahn, D.U. (2016). Effect of irradiation on the parameters that influence quality characteristics of uncured and cured cooked turkey meat products. Poultry Science, 95, 2986-2992.
+(6) Feng, X. Jo, C., Nam, K.C., &amp; Ahn, D.U. (2016). Effect of irradiation on the parameters that influence quality characteristics of raw beef loin. Meat Science, under review.
+(7) Ahn, D. U., Lee, E. J., Feng, X., Zhang, W., Lee, J. H., Jo, C., &amp; Nam, K. (2016). Mechanisms of volatile production from non-sulfur amino acids by irradiation. Radiation Physics and Chemistry, 119, 64-73.
+(8) Ahn, D. U., Lee, E. J., Feng, X., Zhang, W., Lee, J. H., Jo, C., &amp; Nam, K. (2016). Mechanisms of volatile production from sulfur-containing amino acids by irradiation. Radiation Physics and Chemistry, 119, 80-84. 
+
+1.2 Products development:
+(1) Feng, X., Sebranek, J.G., Lee, H.Y., &amp; Ahn, D.U. (2016). Effects of adding red wine on the physicochemical properties and sensory characteristics of uncured frankfurter-type sausage. Meat Science, 121, 285-291.
+(2) Zhu, B., Li, B., Gao, Q., Fan, J., Gao, P., Ma, M., &amp; Feng, X. (2013). Predicting texture of cooked blended rice with pasting properties. International Journal of Food Properties, 16, 485-499.
+
+1.3 Animal physiology:
+(1) Moon, S. H., Lee, I., Feng, X., Lee, H. Y., Kim, J., &amp; Ahn, D. U. (2015). Effect of dietary beta-glucan on the performance of live broilers and the quality of broiler breast meat. Asian-Australasian Journal of Animal Sciences, 29 (3), 384-389.
+
+1.4 Natural products:
+(1) Feng, X., Cheng, G., Chen, S., Yang, H., &amp; Huang, W. (2010). Evaluation of the burn healing properties of oil extraction from housefly larva in mice. Journal of Ethnopharmacology, 130(3), 586-92.
+(2) Khaskheli, S. G., Zheng, W., Sheikh, S. A., Khaskheli, A. A., Liu, Y., Soomro, A. H., Feng, X., Sauer, M. B., Wang, Y. F., &amp; Huang, W. (2015). Characterization of Auricularia auricula polysaccharides and its antioxidant properties in fresh and pickled product. International Journal of Biological Macromolecules, 81, 387-95.
+
+Taste formations in traditional Chinses dishes:
+(1) Feng, X., Cheng, G., He, X., Yang, H., Sha, S., &amp; Huang, W. Effect of cooking conditions on the flavor formation and adulteration detection by cluster analysis of the traditional Chinese chicken soup. Czech Journal of Food Science, under review.
+(2) Zhao, S., Feng, X., Duan, C., Tang, J., Lei, X., Ibrahim, S., &amp; Huang, W. Effect of cooking methods on the chemical compounds associated with umami taste in duck breast meat. Journal of the Science of Food and Agriculture, under review. (co-first author)
+(3) Feng, X., Zhang, K., Zhang, K., &amp; Huang, W. (2010). Study on the key processing technologies of lotus root soup with pork ribs. Journal of Food Science, 31(10): 330-335. (In Chinese)
+(4) Feng, X., Li, Y., Zhang, K., &amp; Huang, W. (2009). Study on the traditional cooking method of lotus root soup with pork ribs. Journal of Science and Technology in Food Industry, 30(8), 221-223. (In Chinese)
+(5) Huang, Y., Li, F., Feng, X., Kang, L., &amp; Huang, W. (2010). Prolonging shelf life of fish cake by the additions of nisin, ε-polylysine and potassium sorbate. Journal of Food Science, 31(08), 285-289. (In Chinese)
+(6) Wang, Y., He, X., Yue, X., Feng, X., &amp; Huang, W. (2010). Effect of cooking condition on quality of chicken soup and texture analysis of chicken muscle. Journal of Food Science, 31(09), 120-125. (In Chinese)
+
+2. Book Chapter:
+Ahn, D. U., Mendonca, A., &amp; Feng, X. (2017). Chapter 8. The storage and preservation of meat: II Non-thermal technologies. In Lawrie’s Meat Science. Ed. F. Toldrá. Woodhead Publishing: Cambridge, UK.',`title`='Identification and characterization of off-odor and off-taste compounds in irradiated ready-to-eat (RTE) cooked meat products' WHERE ( aid=28 ) [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:10:29+08:00 ] 129.186.251.52 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:10:41+08:00 ] 129.186.251.52 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:10:41+08:00 ] 129.186.251.52 /index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:10:43+08:00 ] 129.186.251.52 /index.php/Home/Apply/time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: change C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 282 行.
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-01-26T05:10:44+08:00 ] 129.186.251.52 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:10:50+08:00 ] 101.226.66.192 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:12:18+08:00 ] 129.186.251.52 /index.php/Home/Apply/record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zp_education_experience` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `zp_education_experience` WHERE `aid` = 28 [ RunTime:0.0313s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zp_work_experience` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `zp_work_experience` WHERE `aid` = 28 [ RunTime:0.0313s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('28','Ph.D','201208','201612','Meat Science','Iowa State University ') [ RunTime:0.0156s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('28','M.S','200809','201207','Food Science','Huazhong Agricultural University') [ RunTime:0.0156s ]
+SQL: INSERT INTO `zp_education_experience` (`aid`,`xuewei`,`edu_start_time`,`edu_end_time`,`zhuanye`,`school`) VALUES ('28','B.E','200409','200807','Food Science Technology and Engineering','Huazhong Agricultural University') [ RunTime:0.0156s ]
+SQL: INSERT INTO `zp_work_experience` (`aid`,`job`,`job_start_time`,`job_end_time`,`nation`,`company`) VALUES ('28','Postdoctoral Researc','201701','Present','United States','Iowa State University') [ RunTime:0.0156s ]
+NOTIC: [2] finfo_file(): Empty filename or path C:\wamp\www\zhaopin\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path C:\wamp\www\zhaopin\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' AND `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `photo`,`file` FROM `zp_application` WHERE ( aid=28 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zp_application` SET `name`='Feng, Xi ',`birthday`='1984.09.08',`word_area`='United States',`card`='护照',`cardid`='G60753608',`email`='xifeng@iastate.edu',`job`='Postdoctoral Researcher',`phone`='1-515-708-0036',`address`='240 Raphael Ave., Unit 1, Ames, IA United States 5',`sex`='男',`major`='化学（Chemistry）',`jianjie`='Dr. Xi Feng obtained his BE and MS from Huazhong Agricultural University in 2008 and 2012. He was awarded the Ph.D degree from Iowa State University, Ames, IA, USA, 2016. Dr. Feng’s research interests focus on the food chemistry, particularly functional food and food flavors. Dr. Feng has published 16 papers and 1 book chapters. In addition, Dr. Feng has also been serving as a review panel member for Food Chemistry, Food Research International and Food Science &amp; Nutrition.
+
+1. Referred Journal Articles:
+1.1 Non-thermal technologies (irradiation):
+(1) Feng, X., Lee, E. J., Nam, K., Jo, C., Ko, K., &amp; Ahn, D. U. (2016). Mechanisms of volatile production from amino acid esters by irradiation. Food Research International, 81, 100-107.
+(2) Feng, X., Moon, S.H., Lee, H.Y., &amp; Ahn, D.U. (2016). Effect of irradiation on the degradation of nucleotides in turkey meat. LWT-Food Science and Technology, 73, 88-94.
+(3) Feng, X., &amp; Ahn, D. U. (2016). Volatile profile, lipid oxidation and protein oxidation of irradiated Ready-to-Eat cured turkey meat products. Radiation Physics and Chemistry, 127, 27-33.
+(4) Feng, X., Moon, S.H., Lee, H.Y., &amp; Ahn, D.U. (2016). Effect of irradiation on the parameters that influence quality characteristics of raw turkey breast meat. Radiation Physics and Chemistry, 130, 40-46.
+(5) Feng, X., Moon, S.H., Lee, H.Y., &amp; Ahn, D.U. (2016). Effect of irradiation on the parameters that influence quality characteristics of uncured and cured cooked turkey meat products. Poultry Science, 95, 2986-2992.
+(6) Feng, X. Jo, C., Nam, K.C., &amp; Ahn, D.U. (2016). Effect of irradiation on the parameters that influence quality characteristics of raw beef loin. Meat Science, under review.
+(7) Ahn, D. U., Lee, E. J., Feng, X., Zhang, W., Lee, J. H., Jo, C., &amp; Nam, K. (2016). Mechanisms of volatile production from non-sulfur amino acids by irradiation. Radiation Physics and Chemistry, 119, 64-73.
+(8) Ahn, D. U., Lee, E. J., Feng, X., Zhang, W., Lee, J. H., Jo, C., &amp; Nam, K. (2016). Mechanisms of volatile production from sulfur-containing amino acids by irradiation. Radiation Physics and Chemistry, 119, 80-84. 
+
+1.2 Products development:
+(1) Feng, X., Sebranek, J.G., Lee, H.Y., &amp; Ahn, D.U. (2016). Effects of adding red wine on the physicochemical properties and sensory characteristics of uncured frankfurter-type sausage. Meat Science, 121, 285-291.
+(2) Zhu, B., Li, B., Gao, Q., Fan, J., Gao, P., Ma, M., &amp; Feng, X. (2013). Predicting texture of cooked blended rice with pasting properties. International Journal of Food Properties, 16, 485-499.
+
+1.3 Animal physiology:
+(1) Moon, S. H., Lee, I., Feng, X., Lee, H. Y., Kim, J., &amp; Ahn, D. U. (2015). Effect of dietary beta-glucan on the performance of live broilers and the quality of broiler breast meat. Asian-Australasian Journal of Animal Sciences, 29 (3), 384-389.
+
+1.4 Natural products:
+(1) Feng, X., Cheng, G., Chen, S., Yang, H., &amp; Huang, W. (2010). Evaluation of the burn healing properties of oil extraction from housefly larva in mice. Journal of Ethnopharmacology, 130(3), 586-92.
+(2) Khaskheli, S. G., Zheng, W., Sheikh, S. A., Khaskheli, A. A., Liu, Y., Soomro, A. H., Feng, X., Sauer, M. B., Wang, Y. F., &amp; Huang, W. (2015). Characterization of Auricularia auricula polysaccharides and its antioxidant properties in fresh and pickled product. International Journal of Biological Macromolecules, 81, 387-95.
+
+Taste formations in traditional Chinses dishes:
+(1) Feng, X., Cheng, G., He, X., Yang, H., Sha, S., &amp; Huang, W. Effect of cooking conditions on the flavor formation and adulteration detection by cluster analysis of the traditional Chinese chicken soup. Czech Journal of Food Science, under review.
+(2) Zhao, S., Feng, X., Duan, C., Tang, J., Lei, X., Ibrahim, S., &amp; Huang, W. Effect of cooking methods on the chemical compounds associated with umami taste in duck breast meat. Journal of the Science of Food and Agriculture, under review. (co-first author)
+(3) Feng, X., Zhang, K., Zhang, K., &amp; Huang, W. (2010). Study on the key processing technologies of lotus root soup with pork ribs. Journal of Food Science, 31(10): 330-335. (In Chinese)
+(4) Feng, X., Li, Y., Zhang, K., &amp; Huang, W. (2009). Study on the traditional cooking method of lotus root soup with pork ribs. Journal of Science and Technology in Food Industry, 30(8), 221-223. (In Chinese)
+(5) Huang, Y., Li, F., Feng, X., Kang, L., &amp; Huang, W. (2010). Prolonging shelf life of fish cake by the additions of nisin, ε-polylysine and potassium sorbate. Journal of Food Science, 31(08), 285-289. (In Chinese)
+(6) Wang, Y., He, X., Yue, X., Feng, X., &amp; Huang, W. (2010). Effect of cooking condition on quality of chicken soup and texture analysis of chicken muscle. Journal of Food Science, 31(09), 120-125. (In Chinese)
+
+2. Book Chapter:
+Ahn, D. U., Mendonca, A., &amp; Feng, X. (2017). Chapter 8. The storage and preservation of meat: II Non-thermal technologies. In Lawrie’s Meat Science. Ed. F. Toldrá. Woodhead Publishing: Cambridge, UK.',`title`='Identification and characterization of off-odor and off-taste compounds in irradiated ready-to-eat (RTE) cooked meat products' WHERE ( aid=28 ) [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:12:21+08:00 ] 129.186.251.52 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:12:53+08:00 ] 129.186.251.52 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:12:54+08:00 ] 129.186.251.52 /index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-01-26T05:12:54+08:00 ] 129.186.251.52 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:12:56+08:00 ] 129.186.251.52 /index.php/Home/Apply/time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: change C:\wamp\www\zhaopin\Application\Home\Controller\ApplyController.class.php 第 282 行.
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-01-26T05:12:56+08:00 ] 129.186.251.52 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T05:12:57+08:00 ] 129.186.251.52 /index.php/Home/Apply/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_applicant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_applicant` WHERE `user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `aid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_replay` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_replay` WHERE `apt_user` = 'xifeng@iastate.edu' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: jgcon C:\wamp\www\zhaopin\Application\Runtime\Cache\Home\fb59479dcc3dd577e260de9e77853d3d.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T08:02:28+08:00 ] 113.105.246.244 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T08:32:17+08:00 ] 122.224.153.122 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T12:18:01+08:00 ] 198.20.69.74 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015625s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T17:21:16+08:00 ] 82.46.218.231 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-26T23:17:17+08:00 ] 122.224.153.122 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0469s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '工作动态'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `zp_information` WHERE `class` = '相关信息'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '相关信息' ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_information` WHERE `class` = '工作动态' ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

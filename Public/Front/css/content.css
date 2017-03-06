@@ -1,0 +1,392 @@
+#content{
+	width:100%;
+	margin-top:25px;
+	min-height:830px;
+	height:580px;
+}
+#left{
+	width:20%;
+	height: 630px;
+	height: 700px;
+	margin-left:10%;
+	float:left;
+}
+.login{
+	width:100%;
+	height:330px;
+	border:1px solid lightblue;
+	/*box-shadow:0px 0px 5px blue;*/
+	float:left;
+	margin-bottom:20px;
+	border-radius: 5px;
+}
+.login h1{
+	font-size:20px;
+	font-weight:normal;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:2px;
+	letter-spacing:3px;
+	line-height:30px;
+	color:#136E99;
+}
+.login_hr{
+	width:80%;
+	margin-left:10%;
+	border-spacing:dotted;
+	margin-bottom: 10px;
+	margin-top:5px;
+	color:#999;
+}
+.login span{
+	display:block;
+	text-align:center;
+	text-indent:0px;
+	/*line-height:35px;*/
+	letter-spacing:1px;
+	color:#666;
+	font-size:14px;
+}
+span.login_left{
+	width: 74%;
+	margin-left: 12%;
+	height: 50px;
+	text-align:left;
+	text-indent:0;
+	margin-bottom: 3px;
+}
+span.login_left i {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	font-style: normal;
+	margin-bottom: 3px;
+}
+.login input{
+	width:100%;
+	padding-left:3px;
+	line-height:20px;
+	letter-spacing:1px;
+	border:1px solid lightblue;
+}
+.login input:focus{
+	box-shadow:0px 0px 5px lightblue;
+}
+.denglu{
+	margin-top:8px;
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+	width:70%;
+	color:white;
+	letter-spacing:2px;
+	border-radius:5px;
+}
+.one{
+	background: #44b549;
+	margin-top:10px;
+}
+a.one:hover{
+	background:#2F9833;
+}
+.two{
+	background:#FF6652;
+}
+a.two:hover{
+	background:#FF2652;
+}
+.three{
+	background:#aaaaaa;
+}
+a.three:hover{
+	background:#888;
+}
+.forget{
+	font-size:13px;
+	float:right;
+	margin-top: 5px;
+	margin-right:15%;
+}
+a.forget:hover{
+	color:red;
+	text-decoration:underline;
+}
+
+
+.contact_us{
+	width:100%;
+	height:270px;
+	height: 340px;
+	/*margin-top:10px;*/
+	border:1px solid lightgreen;
+	/*box-shadow:0px 0px 5px green;*/
+	float:left;
+	border-radius: 5px;
+}
+.contact_us h1{
+	font-size:20px;
+	font-weight:normal;
+	text-align:center;
+	margin-top:8px;
+	margin-bottom:2px;
+	letter-spacing:3px;
+	line-height:30px;
+	color:#136E99;
+}
+.contact_us div{
+	margin-bottom: 8px;
+}
+.contact_us span{
+	display:block;
+	text-align:left;
+	text-indent:12%;
+	line-height:22px;
+	letter-spacing:1px;
+	color:#444;
+	font-size:14px;
+}
+.hr2{
+	margin-bottom:5px;
+}
+
+#right {
+	width: 58%;
+	margin-left: 2%;
+	float: left;
+}
+
+div.about-img{
+	width:100%;
+	/*height:310px;*/
+	margin-left:0;
+	margin-bottom: 20px;
+	border-radius:5px;
+	float:left;
+}
+div.about-img img{
+	width:100%;
+	float:left;
+	border-radius:5px;
+}
+
+.new-container {
+	width: 100%;
+	float: left;
+	height: 310px;
+	/*margin-top: 10px;*/
+}
+
+.news{
+	width:46%;
+	height:310px;
+	float:left;
+	margin-left:2%;
+	margin-right: 2%;
+	margin-top: 0px;
+}
+div.news h1 a{
+	font-size:12px;color:orange;line-height:40px;float:right;letter-spacing:1px;margin-right:20px;text-align:right;
+}
+div.news h1 a:hover{
+	color:red;
+}
+#someinformation{
+	width: 95%;
+	height:250px;
+	overflow:hidden;
+	margin-top:-5px;
+}
+#someactivity{
+	width: 95%;
+	height:250px;
+	overflow:hidden;
+	margin-top:-5px;
+}
+.news h1{
+	width: 100%;
+	height: 30px;
+	font-size:20px;
+	font-weight:normal;
+	text-align:left;
+	text-indent:15px;
+	margin-top:0px;
+	margin-bottom:0px;
+	letter-spacing:3px;
+	line-height:30px;
+	float: left;
+	color:#136E99;
+}
+.news ul{
+	width:90%;
+	margin-left:10px;
+	margin-top:15px;
+}
+.news ul li{
+	width:100%;
+	height:40px;
+	font-size:14px;
+	letter-spacing:1px;
+	line-height:40px;
+	color:#444;
+	border-bottom:1px dotted black;
+	background:url(../images/arrow_go.png) no-repeat left center;
+	text-indent:20px;
+}
+.news ul li a{
+	color:#444;
+	width:100%;
+	display:block;
+	overflow:hidden;
+	white-space: nowrap;
+	-moz-text-overflow:ellipsis; 
+	-webkit-text-overflow:ellipsis; 
+	text-overflow:ellipsis; 
+}
+.news ul li a:hover{
+	color:orange;
+}
+
+
+
+
+.about{
+	width:78%;
+	height:150px;
+	/*background:red;*/
+	float:left;
+	margin-left:12%;
+	margin-top:15px;
+	/*box-shadow-bottom:0px 0px 5px #000;*/
+}
+.about h1{
+	font-size:20px;
+	font-weight:normal;
+	text-align:left;
+	text-indent:30px;
+	margin-top:0px;
+	margin-bottom:2px;
+	letter-spacing:3px;
+	line-height:30px;
+	color:#136E99;
+}
+.hr3{
+	width:100%;
+	float:left;
+	margin-top:8px;
+	margin-bottom:0px;
+	margin-left:0px;
+}
+.hr4{
+	width:100%;
+	float:left;
+	margin-top:8px;
+	margin-bottom:10px;
+	margin-left:0px;
+}
+/*
+	已登录
+*/
+.unlog{
+	display:block;
+	/*display:none;*/
+}
+.loged{
+	display:none;
+	/*display:block;*/
+}
+#loged span.welcome{
+	text-align:left;
+	line-height:28px;
+	letter-spacing:0px;
+	font-size:14px;
+	text-indent:22px;
+}
+
+/*图片滚动*/
+#div1{
+	width:100%;
+	height:105px;
+	margin-top:10px;
+	position:relative;
+	overflow:hidden;
+	border-bottom:1px solid #666;
+	border-top:2px solid #999;
+}
+#div1 ul{
+	position:absolute;
+	left:0px;
+	top:12px;
+}
+#div1 ul li{
+	width:220px;
+	height:80px;
+	list-style-type:none;
+	float:left;
+}
+#div1 ul li a{
+	width:220px;
+	height:80px;
+	display:inline-block;
+}
+#div1 ul li img{
+	width:220px;
+	height:80px;
+	margin-right:0px;
+	border:0px;
+}
+
+/**/
+@media screen and (max-width:1080px){
+	#left{
+		width:25%;
+		margin-left:2%;
+		float:left;
+	}
+	#right {
+		width: 69%;
+		margin-right: 2%;
+		float: right;
+	}
+	.news{
+		width:46%;
+		height:310px;
+		float:left;
+		margin-left:2%;
+		margin-right: 2%;
+		margin-top: 0px;
+	}
+	
+	.contact_us span{
+		display:block;
+		text-align:left;
+		text-indent:12%;
+		line-height:22px;
+		letter-spacing:1px;
+		color:#444;
+		letter-spacing:0px;
+		font-size:12px;
+	}
+	.about{
+		width:85%;
+		margin-left:7%;
+		float:left;
+	}
+	pre{
+		margin-left:12px;
+		padding-top:15px;
+		width:280px;
+		height:600px;
+		overflow:auto;
+		text-indent:12px;
+		text-align:left;
+		white-space: pre-wrap;       /* css-3 */
+		white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+		white-space: -pre-wrap;      /* Opera 4-6 */
+		white-space: -o-pre-wrap;    /* Opera 7 */
+		word-wrap: break-word;       /* Internet Explorer 5.5+ */
+		letter-spacing:4px;
+		line-height:28px;
+	}
+	
+}

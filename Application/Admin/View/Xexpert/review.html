@@ -1,0 +1,85 @@
+<include file="Public:header"/>
+      	<div class="container-fluid-full">
+		<div class="row-fluid">
+		   <include file="Public:sliderye"/>
+             <div class="right content">
+                <div class="right-menu">
+                	<p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>评审</p>
+                	
+                </div>
+                <div class="main">
+                <div class="panel panel-default">
+                     <div class="panel-heading">
+					      <h3 class="panel-title">
+					          <i class="fa  icon-folder-open"></i>
+					         评审申请表				          
+					      </h3>
+					 </div>
+         
+					  <table class="table table-bordered table-striped border">
+                                 <thead class="top">
+								  <tr>
+								  	<th >序号</th>
+								  	<th style="text-align:center;">内容</th>
+								  	<th>分值</th>
+								  	<th style="text-align:center;">评审等级</th>
+								  	<th>评分</th>
+								  </tr>
+								   </thead>
+								   <tbody>
+								   <tr>
+								   <td >1</td>
+								   <td>教育科研经历</td>
+								   <td>20</td>
+								   <td>考察申报人的教育背景和科研工作经历，及该背景和经历对其从事科研工作的影响</td>
+								   <td> <input type="text" style="width:100%;height:100%;border:0px;" class="form-control" id="num1" /></td>
+								   </tr>	
+
+								    <tr>
+								   <td >2</td>
+								   <td>已取得的科学研究（技术创新）成果</td>
+								   <td>50</td>
+								   <td>考察申报人承担或参与过的重大科研项目，所发表的代表性论文（论著），已取得的科研成果，已申请或已授权的专利，以及申报人在以上工作中发挥的作用；申请人在国际重要学术团体、机构或权威专业刊物任职情况及参加国际学术会议情况</td>
+								   <td><input type="text" style="width:100%;height:100%;border:0px;" class="form-control" id="num2" /></td>
+								   </tr>	
+
+								    <tr>
+								   <td >3</td>
+								   <td>发展潜力及创新能力</td>
+								   <td>30</td>
+								   <td>考察申报人从事的研究方向是否处于世界科技前沿或属于国内急需紧缺，是否具有原始创新性，是否具有可持续发展的态势。申请人从事科学研究的自然禀赋、科学精神和科学态度及其独立开展原创性科学研究的能力和潜质</td>
+								   <td><input type="text" style="width:100%;height:100%;border:0px;" class="form-control" id="num3" /></td>
+								   </tr>	
+
+								   <tr><td colspan="4"style="text-align:center;"><p >得分合计<b style="color:red;text-align:center;">（自动汇总三项得分）</b></p></td>
+								   	<td id="sum"></td>
+								   </tr>
+
+                                   <tr>
+                                   <td colspan="2" style="text-align:center;">评价意见</td>
+                                   <td colspan="3"><textarea style="width:100%;height:100%;border:0px;"></textarea></td>
+                                   </tr>
+
+                                   <tr>
+                                   <td colspan="2"style="text-align:center;">鉴定结论
+                                   <label for="name"style="color:red;">(选项)</label>
+                                   </td>
+                                   <td colspan="3">
+                                        <select class="form-control">
+                                            <option>优先推荐</option>
+                                            <option>一般推荐</option>
+                                            <option>不推荐</option>
+                                        </select>
+                                    </td>
+                                   </tr>
+						      </tbody>							    
+				  			   </table>			
+                         </div>
+                       
+                          <a href=""  class="btn btn-sm btn-info right right-d2 " ><i class="icon-pencil"></i>提交评审</a>
+                         
+               </div>
+             </div>      
+		</div>
+		</div>
+		<include file="Public:footer"/>

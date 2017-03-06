@@ -1,0 +1,1428 @@
+[ 2017-01-23T16:54:29+08:00 ] 122.205.65.235 /index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-01-23T16:54:38+08:00 ] 122.205.65.235 /index.php/Admin/Login/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T16:54:45+08:00 ] 122.205.65.235 /index.php/Admin/Login/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T16:54:59+08:00 ] 122.205.65.235 /index.php/Admin/Login/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T16:55:22+08:00 ] 122.205.65.235 /index.php/Admin/Login/Sm_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T16:55:30+08:00 ] 122.205.65.235 /index.php/Admin/Login/do_Smlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `password` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-01-23T16:55:30+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T16:56:01+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/record?zd=ltjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming`  [ RunTime:0.0000s ]
+SQL: UPDATE `zp_shuoming` SET `ltjs`='2017年南湖国际青年科学家论坛
+中国•武汉•华中农业大学
+2017年5月17日-19日
+
+一、论坛简介
+南湖国际青年科学家论坛，旨在汇聚海内外优秀青年科学工作者，来华中农业大学开展学术交流，共同探讨学术前沿，加深友谊，促进合作。
+华中农业大学是中国最好农业大学之一，是一所以生命科学为特色，覆盖农、理、工、文、法、经、管、艺等学科门类的国家重点建设高校，农业科学、植物与动物学、化学、生物学与生物化学、分子生物学与遗传学、微生物学6个学科领域进入ESI国际同类学科领域前1%。学校位于中国湖北省武汉市武昌南湖狮子山, 占地面积约5平方公里，三面环湖，风景秀丽，是难得的宜居宜业佳地。
+论坛主页：http://211.69.132.91
+二、论坛学科领域
+从事生命科学（含生物学、生物医学、作物学、植物保护、畜牧学、兽医学、园艺学、水产学）、环境科学、化学、食品营养与健康、信息科学、工程与材料科学、风景园林学、人文社会科学（含管理学、经济学、法学）等领域。
+三、申请条件
+在海内外知名学术机构取得博士学位，具备独立开展科学研究能力，在相关研究领域取得代表性成果，具有发展潜力的海内、外优秀青年人才。
+四、时间安排
+2017年3月15日前，在线提交申请和个人CV，网址http://211.69.132.91；
+2017年3月25日前，确定参会人员，发送邀请函（根据申请提交时间，主办方会及时确定参会人员，分批发送邀请函）；
+2017年5月17日，参会人员报到；
+2017年5月18-19日，论坛主报告、分领域报告、参观座谈等。
+五、差旅及食宿
+受邀参会学者往返差旅经费由主办单位提供（经济舱），论坛期间食宿由主办单位统一安排。
+六、联系人与联系方式
+赵希庆,+86（27）87280957;rcb@mail.hzau.edu.cn
+
+欢迎海内外青年学者踊跃报名、咨询相关细节，在学校寒假期间（2017年1月18日至2月8日）仍接受邮件咨询。因故不能参加集中论坛活动的学者，我们依然竭诚欢迎您与我们联系，协商确定您在合适时段来校交流。
+
+华中农业大学
+2017年1月20日
+South Lake Innovation Forum for International Young Talents
+Huazhong Agricultural University, Wuhan, China
+May 17-19, 2017
+
+1. Introduction
+The South Lake Innovation Forum for International Young Talents (South Lake Forum) aims to gather outstanding young talented scientists and technologists from all over the world to carry out international academic exchanges in Huazhong Agricultural University, to explore research academic frontier, and deepen friendship and promote international cooperation.
+Huazhong Agricultural University (HZAU) is one of the best agricultural universities in China. Featuring life science, HZAU also gives much emphasis on the rational disciplinary construction of agriculture, sciences, engineering, arts, law, economics, and management. According to ESI ranking, Crop science, Plant &amp; Animal science, Chemistry, Biology &amp; Biochemistry, Molecular Biology &amp; Genetics, and Microbiology have ranked the top 1% in the above mentioned disciplines. Covering an area of 495 hectares, the campus is surrounded from three sides by clear lakes and backed by green hills, making it an ideal place for teaching and research.
+For more details and signing up for the upcoming event, you can find it on the forum website: http://211.69.132.91. 
+2. Disciplines
+The forum covers a wide range of disciplines, such as:
+I.	Life sciences: include Biology, Biomedical science, Crop science, Nanotechnology science, Plant pathology, Animal science, Veterinary science, Horticulture science and Fishery sciences;
+II.	Environmental sciences;
+III.	Chemistry;
+IV.	Food nutrition and health;
+V.	Informatics;
+VI.	Engineering and Materials science;
+VII.	Academic  Landscape  Architecture；
+VIII.	Humanities and Social sciences: include Management, Economics and Law.
+3. Requirements for participants to apply 
+Hold a doctoral degree from a world well-known university， and have shown innovation and potential in his/her research area.
+4. Schedule 
+March 15: Online Application Deadline and upload your updated personal C.V. website: http://211.69.132.91；
+March 25: Short-listed participants selected and issue of invitation letter；
+May 17:  Registration on Forum Site；
+May 18-19: Opening Ceremony, Forum Reports, Discussion sections and sightseeing visits etc.
+5. Travel and Accommodation
+All the attendees will be supported with traveling expenses（economy class） and accommodation.
+6. Contact Information
+Contact: Mr. Zhao Xiqing
+Phone: +86（27）8728-0957
+Email: rcb@mail.hzau.edu.cn 
+
+If you have any question, please don’t hesitate to contact us. All Young Talented Scientist around the world are welcome to sign up and apply for this forum, the contact information is available during the winter holiday.
+
+Huazhong Agricultural University
+Jan 20, 2017
+
+' WHERE ( sid=1 ) [ RunTime:0.1094s ]
+
+[ 2017-01-23T16:56:01+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T16:56:03+08:00 ] 122.205.65.235 /index.php/admin/Smanager/situation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T16:56:31+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/record?zd=sqtj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming`  [ RunTime:0.0000s ]
+SQL: UPDATE `zp_shuoming` SET `sqtj`='　中国高等农业教育起点之一。学校前身是清朝光绪年间湖广总督张之洞1898年创办的湖北农务学堂。几经演变，1952年，武汉大学农学院和湖北农学院的全部系科以及中山大学等6所综合性大学农学院的部分系科组建成立华中农学院。1979年，经国务院批准列为全国重点大学，直属农业部。1985年，更名为华中农业大学。2000年，由农业部划转教育部直属领导。2005年，进入国家“211工程”建设行列。
+
+党和国家领导亲切关怀。董必武、李先念等先后为学校题词和题写校名。1998年，时任中共中央总书记、国家主席江泽民为学校百年校庆亲笔题词。2011年，时任中共中央总书记、国家主席胡锦涛听取我校关于生物产业的汇报。2013年，中共中央总书记、国家主席习近平为我校“本禹志愿服务队”亲笔回信。
+
+校园环境得天独厚。校园位于湖北省武汉市武昌南湖狮子山,占地面积495万㎡（7425亩），三面环湖，风景秀丽，环境幽雅，建筑楼群鳞次栉比，自然园林风貌引人入胜。
+
+学科优势特色明显。在2012年全国第三轮一级学科评估中，6个学科名列同类学科前三位。其中，园艺学第1，畜牧学、兽医学第2，作物学、水产、农林经济管理第3，农业资源与环境第5，植物保护第7，生物学第8（排名率进入前10%），食品科学与工程第10（排名率进入前20%）。农业科学、植物与动物学、化学、生物学与生物化学、分子生物学与遗传学五个学科领域进入ESI国际同类学科领域前1%。
+
+教育体系完整。现有学院（部）18个，本科专业57个，硕士学位授权一级学科19个，二级学科102个，博士学位授权一级学科13个，二级学科65个，博士后科研流动站13个。全日制在校学生26196人，其中本科生18763人，研究生7433人。
+
+硕彦俊秀荟萃。现有教职工2600多人，其中教师1569人，教授340人。有中国科学院院士1人，中国工程院院士4人，美国科学院外籍院士1人，第三世界科学院院士2人，千人计划专家20人，万人计划专家4人，长江学者23人，国家杰青19人，973计划首席科学家6人，现代农业产业技术体系首席科学家1人、岗位科学家39人。国家自然科学基金创新研究群体3个，省部级优秀创新团队38个。国家级教学名师4人，国家教学团队7个。
+
+教育教学改革卓有成效。累计获国家级教学成果奖22项，其中特等奖1项、一等奖3项、二等奖18项。“十二五”期间，获批国家教育体制改革项目1项、国家专业综合改革试点专业2个、国家“卓越工程师教育培训计划”专业2个、国家“卓越农林人才教育培养计划”专业8个、国家级实验教学示范中心4个、国家级大学生校外实践基地10个、教育部农业部农科教合作人才培养基地6个、国家级精品资源共享课32门、国家级精品视频公开课10门、国家级“十二五”规划教材18种。
+
+科技实力雄厚。有国家重点实验室2个，国家地方联合工程实验室1个，国家专业实验室4个，部省级重点（工程）实验室21个，国际科技合作基地5个，国家工程（技术）研究中心4个，部省级工程（技术）研究中心24个，校企共建实验室（研发中心）28个，省级人文社科重点研究基地2个。“十二五”期间，获批科研项目5388项，经费31.29亿元。在杂交油菜、绿色水稻、优质种猪、动物疫苗、优质柑橘、试管种薯等研究领域，取得一批享誉国内外的标志性成果。
+
+精神文明建设成绩优异。1996年以来，学校连续十次被评为湖北省最佳文明单位，2005年获全国精神文明建设先进单位，2008年以来，三度荣膺全国文明单位。
+' WHERE ( sid=1 ) [ RunTime:0.0469s ]
+
+[ 2017-01-23T16:56:32+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T16:56:33+08:00 ] 122.205.65.235 /index.php/admin/Smanager/time.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T16:57:41+08:00 ] 122.205.65.235 /index.php/admin/Smanager/situation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T16:57:42+08:00 ] 122.205.65.235 /index.php/admin/Smanager/time.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T16:57:44+08:00 ] 122.205.65.235 /index.php/admin/Smanager/explain.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T16:58:58+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/record?zd=ltsm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming`  [ RunTime:0.0000s ]
+SQL: UPDATE `zp_shuoming` SET `ltsm`='为广泛吸引海外青年学者来校交流，满足不同学者的时间要求，本次论坛活动采取集中与分散两种形式，分为集中论坛和论坛季。
+①集中论坛
+    报到时间：2017年5月17日
+    论坛报告交流时间：2017年5月18日-19日
+②论坛季
+    时间区段为：2017年1月20日-2017年5月30日。凡是不能参加集中论坛活动的学者，我们依然竭诚欢迎您与我们联系，我们会与相关院系及科研机构单位沟通，协商确定您在论坛季中合适时段来我校考察交流。 ' WHERE ( sid=1 ) [ RunTime:0.0156s ]
+
+[ 2017-01-23T16:58:58+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T16:59:02+08:00 ] 122.205.65.235 /index.php/admin/Smanager/photo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_img` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_img`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T16:59:03+08:00 ] 122.205.65.235 /index.php/admin/Smanager/time.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-01-23T16:59:04+08:00 ] 122.205.65.235 /index.php/admin/Smanager/photo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_img` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_img`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T16:59:06+08:00 ] 122.205.65.235 /index.php/admin/Smanager/time.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:00:01+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/record?zd=sqsj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming`  [ RunTime:0.0000s ]
+SQL: UPDATE `zp_shuoming` SET `sqsj`='一、招聘领域 
+ 
+农业科学、植物与动物学、生物学与生物化学、分子生物学&amp;遗传学、化学、微生物学等6个已进入ESI前1%的学科，生物医学、环境科学与生态学、免疫学、药理学&amp;毒理学、综合交叉学科以及食品、风景园林、信息、经济、管理、法学等领域。 
+ 
+具体招聘岗位请点击： 
+ 
+华中农业大学2017年专任教师招聘计划
+ 
+二、发展支持 
+ 
+实行“一人一事一议”，按照“一流人才一流支持，安居乐业保障具综合竞争力”原则，签订个性化聘约。 
+ 
+（一）学科领军人才（聘为教授） 
+ 
+“千人计划”“万人计划-领军人才”“长江学者”“国家杰青”及有效候选人； 
+ 
+全职：科研支持（大型仪器设备另计）自然科学不低于500万元、人文社科不低于200万元，支持组建创新团队；极具竞争力的薪酬和安居保障。 
+ 
+非全职：科研支持自然科学100-300万元、人文社科100-200万元，共建实验室和研究团队；免费提供专家公寓，5-10万元月薪。 
+ 
+（二）青年拔尖人才（聘为教授或其他正高职务） 
+ 
+“青年千人”“万人计划-青年拔尖人才”“青年长江”“国家优青”“湖北青年百人”及有效候选人；优势学科领域一般不超过35周岁，发展中学科、急需学科和特别优秀的可适当放宽至40周岁；全职来校工作。 
+ 
+科研支持自然科学100-300万元（大型仪器设备另计）、人文社科50万元左右，支持组建学术团队；基础年薪25-40万元（科研绩效、综合奖励另计），提供专家公寓（或周转房）和30-60万元购房补贴（要求工作满两个聘期），享有全额房贴，安排未成年子女入学入托，按程序招聘配偶。 
+ 
+（三）优秀青年人才（副教授或相应职务） 
+ 
+学术经历优、业绩突出且具发展潜力的博士或博士后，一般不超过35周岁；全职来校工作，聘至相应岗位并享有相应待遇，亦可实行协议工资制。 
+ 
+提供科研启动费，副教授:文科15万元、理科20万元、工科25万元； 新进博士:文科10万元、理科15万元、工科20万元；所属团队提供相应的实验和办公条件。 
+ 
+提供在同类地区高校具有竞争力的薪酬和住房待遇，新进博士提供1000元/月生活津贴（急需发展学科和海外博士学位获得者2000元/月），连续发放3年。 
+ 
+（四）师资博士后 
+ 
+学术经历和科研产出良好且具发展潜力，达到相应学科教师招聘基本条件的博士学位获得者，年龄不超过32周岁。 
+ 
+年收入一般不低于15万元，在子女入托、上学、医疗方面享受与校内在职教职工相同待遇；出站考核达到协议约定条件聘至学校相应岗位。 
+' WHERE ( sid=1 ) [ RunTime:0.0313s ]
+
+[ 2017-01-23T17:00:01+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:00:04+08:00 ] 122.205.65.235 /index.php/admin/Smanager/time.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:00:05+08:00 ] 122.205.65.235 /index.php/admin/Smanager/photo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_img` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_img`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:00:06+08:00 ] 122.205.65.235 /index.php/admin/Smanager/situation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015625s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:01:15+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/record?zd=sqtj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming`  [ RunTime:0.0000s ]
+SQL: UPDATE `zp_shuoming` SET `sqtj`='  中国高等农业教育起点之一。学校前身是清朝光绪年间湖广总督张之洞1898年创办的湖北农务学堂。几经演变，1952年，武汉大学农学院和湖北农学院的全部系科以及中山大学等6所综合性大学农学院的部分系科组建成立华中农学院。1979年，经国务院批准列为全国重点大学，直属农业部。1985年，更名为华中农业大学。2000年，由农业部划转教育部直属领导。2005年，进入国家“211工程”建设行列。
+
+  党和国家领导亲切关怀。董必武、李先念等先后为学校题词和题写校名。1998年，时任中共中央总书记、国家主席江泽民为学校百年校庆亲笔题词。2011年，时任中共中央总书记、国家主席胡锦涛听取我校关于生物产业的汇报。2013年，中共中央总书记、国家主席习近平为我校“本禹志愿服务队”亲笔回信。
+
+  校园环境得天独厚。校园位于湖北省武汉市武昌南湖狮子山,占地面积495万㎡（7425亩），三面环湖，风景秀丽，环境幽雅，建筑楼群鳞次栉比，自然园林风貌引人入胜。
+
+  学科优势特色明显。在2012年全国第三轮一级学科评估中，6个学科名列同类学科前三位。其中，园艺学第1，畜牧学、兽医学第2，作物学、水产、农林经济管理第3，农业资源与环境第5，植物保护第7，生物学第8（排名率进入前10%），食品科学与工程第10（排名率进入前20%）。农业科学、植物与动物学、化学、生物学与生物化学、分子生物学与遗传学五个学科领域进入ESI国际同类学科领域前1%。
+
+  教育体系完整。现有学院（部）18个，本科专业57个，硕士学位授权一级学科19个，二级学科102个，博士学位授权一级学科13个，二级学科65个，博士后科研流动站13个。全日制在校学生26196人，其中本科生18763人，研究生7433人。
+
+  硕彦俊秀荟萃。现有教职工2600多人，其中教师1569人，教授340人。有中国科学院院士1人，中国工程院院士4人，美国科学院外籍院士1人，第三世界科学院院士2人，千人计划专家20人，万人计划专家4人，长江学者23人，国家杰青19人，973计划首席科学家6人，现代农业产业技术体系首席科学家1人、岗位科学家39人。国家自然科学基金创新研究群体3个，省部级优秀创新团队38个。国家级教学名师4人，国家教学团队7个。
+
+  教育教学改革卓有成效。累计获国家级教学成果奖22项，其中特等奖1项、一等奖3项、二等奖18项。“十二五”期间，获批国家教育体制改革项目1项、国家专业综合改革试点专业2个、国家“卓越工程师教育培训计划”专业2个、国家“卓越农林人才教育培养计划”专业8个、国家级实验教学示范中心4个、国家级大学生校外实践基地10个、教育部农业部农科教合作人才培养基地6个、国家级精品资源共享课32门、国家级精品视频公开课10门、国家级“十二五”规划教材18种。
+
+  科技实力雄厚。有国家重点实验室2个，国家地方联合工程实验室1个，国家专业实验室4个，部省级重点（工程）实验室21个，国际科技合作基地5个，国家工程（技术）研究中心4个，部省级工程（技术）研究中心24个，校企共建实验室（研发中心）28个，省级人文社科重点研究基地2个。“十二五”期间，获批科研项目5388项，经费31.29亿元。在杂交油菜、绿色水稻、优质种猪、动物疫苗、优质柑橘、试管种薯等研究领域，取得一批享誉国内外的标志性成果。
+
+  精神文明建设成绩优异。1996年以来，学校连续十次被评为湖北省最佳文明单位，2005年获全国精神文明建设先进单位，2008年以来，三度荣膺全国文明单位。
+' WHERE ( sid=1 ) [ RunTime:0.0156s ]
+
+[ 2017-01-23T17:01:15+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:01:17+08:00 ] 122.205.65.235 /index.php/admin/Smanager/time.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-01-23T17:01:43+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/record?zd=sqsj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming`  [ RunTime:0.0000s ]
+SQL: UPDATE `zp_shuoming` SET `sqsj`='一、招聘领域 
+ 
+农业科学、植物与动物学、生物学与生物化学、分子生物学&amp;遗传学、化学、微生物学等6个已进入ESI前1%的学科，生物医学、环境科学与生态学、免疫学、药理学&amp;毒理学、综合交叉学科以及食品、风景园林、信息、经济、管理、法学等领域。 
+ 
+具体招聘岗位请点击： 
+ 
+华中农业大学2017年专任教师招聘计划
+ 
+二、发展支持 
+ 
+实行“一人一事一议”，按照“一流人才一流支持，安居乐业保障具综合竞争力”原则，签订个性化聘约。 
+ 
+（一）学科领军人才（聘为教授） 
+ 
+“千人计划”“万人计划-领军人才”“长江学者”“国家杰青”及有效候选人； 
+ 
+全职：科研支持（大型仪器设备另计）自然科学不低于500万元、人文社科不低于200万元，支持组建创新团队；极具竞争力的薪酬和安居保障。 
+ 
+非全职：科研支持自然科学100-300万元、人文社科100-200万元，共建实验室和研究团队；免费提供专家公寓，5-10万元月薪。 
+ 
+（二）青年拔尖人才（聘为教授或其他正高职务） 
+ 
+“青年千人”“万人计划-青年拔尖人才”“青年长江”“国家优青”“湖北青年百人”及有效候选人；优势学科领域一般不超过35周岁，发展中学科、急需学科和特别优秀的可适当放宽至40周岁；全职来校工作。 
+ 
+科研支持自然科学100-300万元（大型仪器设备另计）、人文社科50万元左右，支持组建学术团队；基础年薪25-40万元（科研绩效、综合奖励另计），提供专家公寓（或周转房）和30-60万元购房补贴（要求工作满两个聘期），享有全额房贴，安排未成年子女入学入托，按程序招聘配偶。 
+ 
+（三）优秀青年人才（副教授或相应职务） 
+ 
+学术经历优、业绩突出且具发展潜力的博士或博士后，一般不超过35周岁；全职来校工作，聘至相应岗位并享有相应待遇，亦可实行协议工资制。 
+ 
+提供科研启动费，副教授:文科15万元、理科20万元、工科25万元； 新进博士:文科10万元、理科15万元、工科20万元；所属团队提供相应的实验和办公条件。 
+ 
+提供在同类地区高校具有竞争力的薪酬和住房待遇，新进博士提供1000元/月生活津贴（急需发展学科和海外博士学位获得者2000元/月），连续发放3年。 
+ 
+（四）师资博士后 
+ 
+学术经历和科研产出良好且具发展潜力，达到相应学科教师招聘基本条件的博士学位获得者，年龄不超过32周岁。 
+ 
+年收入一般不低于15万元，在子女入托、上学、医疗方面享受与校内在职教职工相同待遇；出站考核达到协议约定条件聘至学校相应岗位。
+三、招聘程序 
+ 
+个人申请、院学术委员会考核推荐、校评审委员会评审、校办公会审定、公示、体检和心理测试等环节，学校在启动引进程序2个月内反馈校内评审结果。 
+ 
+副教授及以下岗位不设校评审委员会评审、校办公会审定环节，学校在启动招聘程序1个月内反馈结果。 
+ 
+有意应聘者请登录华中农业大学招聘网注册用户登录，选择岗位报名，并上传个人近期证件照及相应附件材料。 
+ 
+招聘网网址为：http://rs.hzau.edu.cn/zhaopin 
+ 
+申报“千人计划”等人才项目者，按照主管部门要求提供材料，学校据需提供协助和团队指导。 
+ 
+四、联系我们 
+ 
+人事处联系人：任老师 欧老师 赵老师 
+ 
+联系电话：027-87280957 
+ 
+E-mail：rcb@mail.hzau.edu.cn 
+ 
+地址：湖北省武汉市洪山区狮子山街1号 
+ 
+' WHERE ( sid=1 ) [ RunTime:0.0156s ]
+
+[ 2017-01-23T17:01:43+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:01:47+08:00 ] 122.205.65.235 /index.php/admin/Smanager/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:03:35+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/new_information
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_information` (`title`,`class`,`content`,`time`) VALUES ('2017年南湖国际青年科学家论坛通知','最新通知','                                                                     2017年南湖国际青年科学家论坛
+                                                                         中国•武汉•华中农业大学
+                                                                          2017年5月17日-19日
+
+  一、论坛简介
+  南湖国际青年科学家论坛，旨在汇聚海内外优秀青年科学工作者，来华中农业大学开展学术交流，共同探讨学术前沿，加深友谊，促进合作。
+  华中农业大学是中国最好农业大学之一，是一所以生命科学为特色，覆盖农、理、工、文、法、经、管、艺等学科门类的国家重点建设高校，农业科学、植物与动物学、化学、生物学与生物化学、分子生物学与遗传学、微生物学6个学科领域进入ESI国际同类学科领域前1%。学校位于中国湖北省武汉市武昌南湖狮子山, 占地面积约5平方公里，三面环湖，风景秀丽，是难得的宜居宜业佳地。
+  论坛主页：http://211.69.132.91
+  二、论坛学科领域
+  从事生命科学（含生物学、生物医学、作物学、植物保护、畜牧学、兽医学、园艺学、水产学）、环境科学、化学、食品营养与健康、信息科学、工程与材料科学、风景园林学、人文社会科学（含管理学、经济学、法学）等领域。
+  三、申请条件
+  在海内外知名学术机构取得博士学位，具备独立开展科学研究能力，在相关研究领域取得代表性成果，具有发展潜力的海内、外优秀青年人才。
+  四、时间安排
+  2017年3月15日前，在线提交申请和个人CV，网址http://211.69.132.91；
+  2017年3月25日前，确定参会人员，发送邀请函（根据申请提交时间，主办方会及时确定参会人员，分批发送邀请函）；
+  2017年5月17日，参会人员报到；
+  2017年5月18-19日，论坛主报告、分领域报告、参观座谈等。
+  五、差旅及食宿
+  受邀参会学者往返差旅经费由主办单位提供（经济舱），论坛期间食宿由主办单位统一安排。
+  六、联系人与联系方式
+  赵希庆,+86（27）87280957;rcb@mail.hzau.edu.cn
+
+  欢迎海内外青年学者踊跃报名、咨询相关细节，在学校寒假期间（2017年1月18日至2月8日）仍接受邮件咨询。因故不能参加集中论坛活动的学者，我们依然竭诚欢迎您与我们联系，协商确定您在合适时段来校交流。
+
+                                                                                                                  华中农业大学
+                                                                                                                 2017年1月20日
+','2017-01-23') [ RunTime:0.0313s ]
+
+[ 2017-01-23T17:03:35+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:04:58+08:00 ] 122.205.65.235 /index.php/admin/Smanager/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:05:30+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/new_information
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_information` (`title`,`class`,`content`,`time`) VALUES ('South Lake Innovation Forum for International Young Talents','最新通知','                                   South Lake Innovation Forum for International Young Talents
+                                           Huazhong Agricultural University, Wuhan, China
+                                                                 May 17-19, 2017
+
+1. Introduction
+The South Lake Innovation Forum for International Young Talents (South Lake Forum) aims to gather outstanding young talented scientists and technologists from all over the world to carry out international academic exchanges in Huazhong Agricultural University, to explore research academic frontier, and deepen friendship and promote international cooperation.
+Huazhong Agricultural University (HZAU) is one of the best agricultural universities in China. Featuring life science, HZAU also gives much emphasis on the rational disciplinary construction of agriculture, sciences, engineering, arts, law, economics, and management. According to ESI ranking, Crop science, Plant & Animal science, Chemistry, Biology & Biochemistry, Molecular Biology & Genetics, and Microbiology have ranked the top 1% in the above mentioned disciplines. Covering an area of 495 hectares, the campus is surrounded from three sides by clear lakes and backed by green hills, making it an ideal place for teaching and research.
+For more details and signing up for the upcoming event, you can find it on the forum website: http://211.69.132.91. 
+2. Disciplines
+The forum covers a wide range of disciplines, such as:
+I.	Life sciences: include Biology, Biomedical science, Crop science, Nanotechnology science, Plant pathology, Animal science, Veterinary science, Horticulture science and Fishery sciences;
+II.	Environmental sciences;
+III.	Chemistry;
+IV.	Food nutrition and health;
+V.	Informatics;
+VI.	Engineering and Materials science;
+VII.	Academic  Landscape  Architecture；
+VIII.	Humanities and Social sciences: include Management, Economics and Law.
+3. Requirements for participants to apply 
+Hold a doctoral degree from a world well-known university， and have shown innovation and potential in his/her research area.
+4. Schedule 
+March 15: Online Application Deadline and upload your updated personal C.V. website: http://211.69.132.91；
+March 25: Short-listed participants selected and issue of invitation letter；
+May 17:  Registration on Forum Site；
+May 18-19: Opening Ceremony, Forum Reports, Discussion sections and sightseeing visits etc.
+5. Travel and Accommodation
+All the attendees will be supported with traveling expenses（economy class） and accommodation.
+6. Contact Information
+Contact: Mr. Zhao Xiqing
+Phone: +86（27）8728-0957
+Email: rcb@mail.hzau.edu.cn 
+
+If you have any question, please don’t hesitate to contact us. All Young Talented Scientist around the world are welcome to sign up and apply for this forum, the contact information is available during the winter holiday.
+
+Huazhong Agricultural University
+Jan 20, 2017
+
+','2017-01-23') [ RunTime:0.0156s ]
+
+[ 2017-01-23T17:05:30+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:07:59+08:00 ] 122.205.65.235 /index.php/admin/Smanager/explain.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:08:24+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/retime
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming`  [ RunTime:0.0000s ]
+SQL: UPDATE `zp_shuoming` SET `time`='2017-5-17@2017-5-19' WHERE ( sid=1 ) [ RunTime:0.0313s ]
+
+[ 2017-01-23T17:08:24+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-01-23T17:08:26+08:00 ] 122.205.65.235 /index.php/admin/Smanager/photo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_img` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_img`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:08:28+08:00 ] 122.205.65.235 /index.php/admin/Smanager/time.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:08:29+08:00 ] 122.205.65.235 /index.php/admin/Smanager/situation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:08:31+08:00 ] 122.205.65.235 /index.php/admin/Smanager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:08:34+08:00 ] 122.205.65.235 /index.php/admin/Smanager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:08:37+08:00 ] 122.205.65.235 /index.php/admin/Smanager/time.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:08:38+08:00 ] 122.205.65.235 /index.php/admin/Smanager/situation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:08:40+08:00 ] 122.205.65.235 /index.php/admin/Smanager/photo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_img` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_img`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:08:40+08:00 ] 122.205.65.235 /index.php/admin/Smanager/explain.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:08:42+08:00 ] 122.205.65.235 /index.php/admin/Smanager/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:10:16+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/new_information
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0000s ]
+SQL: INSERT INTO `zp_information` (`title`,`class`,`content`,`time`) VALUES ('【科学网】首届南湖国际青年科学家论坛召开','工作动态','  近日，首届南湖生命科学国际青年科学家论坛在华中农业大学召开。来自美国国立卫生研究院、哈佛大学医学院、杜克大学等海外学术机构的20位青年学者受邀参会，并围绕生物医学、畜牧兽医、微生物学、水产和植物生物学等领域作专题报告。
+
+  中国科学院院士、华中农业大学生命科学技术学院张启发教授在致辞中表示，华中农业大学的生物学在国内一直保持在第一方阵，但若干二级学科方向仍是空白，有待根据学科发展、时代变化和人才培养的需求，积极发展生物医学，不断拓展学科领域。
+
+  据介绍，南湖国际青年科学家论坛是华中农业大学实施对外开放办学的一项新举措，旨在进一步拓展学科领域和加强人才队伍国际化，未来还将围绕作物科学等不同领域展开交流。','2017-01-23') [ RunTime:0.0313s ]
+
+[ 2017-01-23T17:10:16+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:11:45+08:00 ] 122.205.65.235 /index.php/admin/Smanager/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-23T17:12:30+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/new_information
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_information` [ RunTime:0.0156s ]
+SQL: INSERT INTO `zp_information` (`title`,`class`,`content`,`time`) VALUES ('首届南湖国际青年科学家论坛在我校召开','工作动态','  南湖新闻网讯（记者 兰涵旗）6月23日上午，首届南湖生命科学国际青年科学家论坛在我校国际学术交流中心学术报告厅开幕。2位国内知名特邀专家、20位来自全球的青年科学家，国际合作与交流处、人事处、生科院、动科动医学院、水产学院、信息学院负责人和学校师生300余人参加论坛。副校长高翅教授、中国科学院院士张启发出席论坛并致辞。生科院院长王学路教授主持开幕式。
+
+  高翅对来校参加论坛的嘉宾表示热烈欢迎。他指出，大学作为一个学术共同体，都有一个共同的价值追求。华农的价值追求就是“勤读力耕、立己达人”。他表示，华中农大有一个鲜明的特点就是“生态优雅”。其中，既有自然生态与人和谐相处，校园9公里的湖岸线，10分钟从家到实验室、食堂、试验田和幼儿园的生活圈；又有由一代代华农学人积淀下来的，以“实事求是、激扬梦想、追求卓越、卓尔不群”为特征的良好的学术生态。他深情回顾了华农三代归国博士在学校这片沃土上创业发展的故事。“如果你想做真学问、真做学问，那么选择来到华农，一定是正确的”。他邀请各位青年学者来华农建功立业，并表示学校将一如既往地尊重人才成长规律，给予成长适应期，“多一些雪中送炭的帮助，少一些锦上添花的浓妆”。
+
+  张启发结合学校“十三五”规划提出的要完成综合性大学学科布局的目标任务，希望大家把“华中农业大学的农业二字，多理解成名词，而不是形容词”。他表示，我校的生物学在国内一直保持在第一方阵，但若干二级学科方向仍是空白，有待根据学科发展、时代变化和人才培养的需求，积极发展生物医学，不断拓展学科领域。他期待各位青年才俊在狮子山书写人生精彩华章。
+
+  开幕式结束后，武汉大学基础医学院院长郭德银教授作了题为《肿瘤抑制蛋白PTEN与抗病毒》的首场特邀报告。来自美国国立卫生研究院、哈佛大学医学院、杜克大学等海外学术机构的20位青年学者相继围绕生物医学、畜牧兽医、微生物学、水产和植物生物学等领域展开专题报告。
+
+  审核：张翅  金安江
+','2017-01-23') [ RunTime:0.0156s ]
+
+[ 2017-01-23T17:12:30+08:00 ] 122.205.65.235 /index.php/Admin/Smanager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = 'admin ' AND `grant` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_shuoming` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_shuoming` WHERE ( sid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

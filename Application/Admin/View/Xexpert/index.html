@@ -1,0 +1,45 @@
+<include file="Public:header"/>
+      	<div class="container-fluid-full">
+		<div class="row-fluid">
+		   <include file="Public:sliderxe"/>
+             <div class="right content">
+                <div class="right-menu">
+                	<p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>已评审</p>
+                	
+                </div>
+                <div class="main">
+                <div class="panel panel-default">
+                     <div class="panel-heading">
+					      <h3 class="panel-title">
+					          <i class="fa  icon-folder-open"></i>
+					         已评审的申请表
+ 
+					      </h3>
+					 </div>
+                    
+					 
+					 <table class="table table-bordered table-striped border">
+                                 <thead class="top">
+								  <tr>
+								  	<th style="text-align:center;">申请人</th>
+								  	<th style="text-align:center;">专业领域</th>
+									<th style="text-align:center;">编辑</th>
+								  </tr>
+								   </thead>
+								   <tbody>
+								<volist name="list" id="vo">
+								   <tr>
+								   <td style="text-align:center;">{$vo.name}</td>
+								   <td style="text-align:center;">{$vo.major}</td>
+								   <td style="text-align:center;"><a class="btn btn-sm btn-info  " href="__URL__/hl1?numid={$vo.numid}"><i class="icon-pencil">查看评审</i></a>
+                                       <a class="btn btn-sm btn-info " href="__URL__/hl?numid={$vo.numid}&aid={$vo.aid}"><i class="icon-pencil">重新评审</i></a></td>
+								   </tr>	
+                                </volist>	 						   
+						      </tbody>		
+                       </table>			
+               </div>
+             </div>
+		</div>
+		</div>
+	
+		<include file="Public:footer"/>

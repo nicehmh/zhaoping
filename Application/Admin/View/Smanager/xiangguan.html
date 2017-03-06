@@ -1,0 +1,51 @@
+<include file="Public:header"/>
+      	<div class="container-fluid-full">
+		<div class="row-fluid">
+		   <include file="Public:slidersm"/>
+             <div class="right content">
+                <div class="right-menu">
+                	<p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>相关信息</p>
+                	
+                </div>
+                <div class="main">
+                <div class="panel panel-default">
+                     <div class="panel-heading">
+					      <h3 class="panel-title">
+					          <i class="fa  icon-folder-open"></i>
+					         相关信息		          
+					      </h3>
+					 </div>
+					  <table class="table table-bordered table-striped border">
+                                 <thead class="top">
+								  <tr>
+								    <th style="text-align:center;width:89px;">顺序</th>
+								  	<th style="text-align:center;">标题</th>
+									<th style="text-align:center;width:289px;">编辑</th>
+								  </tr>
+								   </thead>
+								<tbody>
+								<?php $j=1; ?>
+								<volist name="list" id="vo">
+								   <tr>
+								   <td style="text-align:center;"><?php echo $j;$j++;?></td>
+								   <td style="text-align:center;">{$vo.title}</td>
+								    <td style="text-align:center;">
+								      <a class="btn btn-xs btn-info" href="__URL__/model?id={$vo.id}" ><i class="icon-edit">修改</i></a>
+								      <a class="btn btn-xs btn-danger" href="__URL__/del_sy?id={$vo.id}"><i class="icon-trash">删除</i></a>
+								   </td>
+								   </tr>	
+                                 </volist>						   
+						      </tbody>		
+                       </table>			     
+              </div> 
+            </div>
+			 <input type="button" class="btn btn-info inline personbtn right right-d2" value="添加" onclick="f1();"/>
+        </div>      
+		  </div>
+		</div>
+		<script>
+		    function f1(){
+			    window.location.href="__URL__/add_sy?class=相关信息";
+			}
+		</script>
+		<include file="Public:footer"/>

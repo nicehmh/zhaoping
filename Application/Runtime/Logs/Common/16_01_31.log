@@ -1,0 +1,18 @@
+[ 2016-01-31T16:57:03+08:00 ] 127.0.0.1 /zhaopin/index.php/index.php/admin/Ymanager/application.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-01-31T16:58:29+08:00 ] 127.0.0.1 /zhaopin/index.php/index.php/admin/Ymanager/application.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-01-31T17:02:05+08:00 ] 127.0.0.1 /zhaopin/index.php/index.php/admin/Ymanager/application.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index.php
+

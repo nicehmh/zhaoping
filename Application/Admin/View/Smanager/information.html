@@ -1,0 +1,51 @@
+<include file="Public:header"/>
+        <div class="container-fluid-full">
+    <div class="row-fluid">
+       <include file="Public:slidersm"/>
+             <div class="right content">
+                <div class="right-menu">
+                  <p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>信息发布</p>
+                  
+                </div>
+                <div class="main">
+                <div class="panel panel-default">
+                     <div class="panel-heading">
+                <h3 class="panel-title">
+                    <i class="fa  icon-folder-open"></i>
+                   信息发布              
+                </h3>
+           </div>
+                <form action="__URL__/new_information" method="POST" name="jaj">
+                </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;主题：<input type="text" name="title" class="form-control" style="width:25%;display:inline-block;"></br></br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;类别：<input type="radio" name="class" value="最新通知"> 最新通知&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="class" value="工作动态"> 工作动态</br></br>
+                 &nbsp;&nbsp; &nbsp;&nbsp; 内容：<br>
+                 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; <textarea rows="10" class="form-control" style="width:75%;display:inline-block;margin-top:-20px;" name="content"></textarea>
+                <input type="button" class="btn btn-success right right-d2" style="margin-right:85px;margin-top:130px;"value="发布" onclick="add();"/></br></br>
+
+                <script type="text/javascript">
+                function add(){
+                  var flag=1;
+                  var title=$("input[name='title']");
+                  var content=$("textarea[name='content']").val();
+                  if(title=="" || content==""){
+                    flag=0;
+                  }
+                  var clas=$('input:radio[name=class]:checked').val();
+                  if(clas==null){
+                    flag=0;
+                  }
+
+                  if(flag==1){
+                    $("form").submit();
+                  }else{
+                    alert("请把信息填写完整！");
+                  }
+                }
+                </script>
+                </form>                     
+              </div>                        
+            </div>
+        </div>      
+      </div>
+    </div>
+    <include file="Public:footer"/>

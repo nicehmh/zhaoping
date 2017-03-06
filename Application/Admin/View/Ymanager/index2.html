@@ -1,0 +1,97 @@
+<include file="Public:header"/>
+   <script type="text/javascript">
+function selectAll(){
+ var checklist = document.getElementsByName ("selected");
+   if(document.getElementById("controlAll").checked)
+   {
+   for(var i=0;i<checklist.length;i++)
+   {
+      checklist[i].checked = 1;
+   }
+ }else{
+  for(var j=0;j<checklist.length;j++)
+  {
+     checklist[j].checked = 0;
+  }
+ }
+}
+ function f1(){
+        var ex=document.getElementById("selex").value;
+	  var ad=document.getElementById("ad").value;
+        var objs = document.getElementsByName ("selected");
+         allValues='';      
+         for(var i =0;i<objs.length;i++){    
+              var obj = objs[i];    
+              if(obj.type=="checkbox"){  
+                   allValues+=obj.value+",";     
+              }  
+        }    
+       // alert(allValues);
+       //window.location.href="__URL__/xzj?all="+allValues+"&pid="+ex;
+        var xhr = new XMLHttpRequest();
+	xhr.onreadystatechange=function(){
+	     if(xhr.readyState==4){
+	        alert(xhr.responseText);
+		window.location.href="__URL__/handout";
+	     }
+	}
+	xhr.open('get',"__URL__/xzj?all="+allValues+"&pid="+ex+"&id="+ad);
+	xhr.send(null);
+    }
+</script>
+      	<div class="container-fluid-full">
+		<div class="row-fluid">
+		   <include file="Public:sliderym"/>
+             <div class="right content">
+                <div class="right-menu">
+                	<p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>个人中心</p>
+                	
+                </div>
+                <div class="main">
+                <div class="panel panel-default">
+                     <div class="panel-heading">
+					      <h3 class="panel-title">
+					          <i class="fa  icon-folder-open"></i>
+					         个人中心<b style="font-size:11px;">>>个人已评申请表</b>	
+<a class="right right-d2"  style="color:blue;" href="__URL__/index"><span style="font-size:14px;color:#333;">转换到>> </span>专家已评申请表</a>								 
+					      </h3>
+					 </div>
+                    
+					   <table class="table table-bordered table-striped border">
+                                                        <thead class="top">
+								  <tr>
+								     
+								  	<th  style="text-align:center;">申请人</th>
+								  	<th style="text-align:center;">专业领域</th>
+								 	<th style="text-align:center;">编辑</th>
+									<!--<th>评审信息</th>-->
+								  </tr>
+								   </thead>
+								   <tbody>
+						           <volist name="list" id="vo"> 
+							           <tr>
+							       
+								   <td style="text-align:center;">{$vo.name}</td>
+								   <td style="text-align:center;">{$vo.major}</td>
+								   <td style="text-align:center;"><a class="btn btn-xs btn-info" href="__URL__/hl1?tid={$vo.kp2}" ><i class="icon-edit">查看</i></a>
+								  <!-- <a class="btn btn-xs  btn-success " href=""><i class="icon-trash">转发</i></a>-->
+								   <a class="btn btn-xs btn-danger" href="__URL__/del?numid={$vo.numid}"><i class="icon-trash">删除</i></a>
+								   	
+                                                                 </tr>								   
+					
+								    </volist>
+							  </tbody>	
+		     		  
+				  	  </table>			
+						  </div>
+						                      
+											
+						</div>
+               </div>
+             </div>
+             <div style="text-align: center;color:#000;">
+                 			{$page}
+						</div>
+		</div>
+		</div>
+		<include file="Public:footer"/>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>华中农业大学南湖国际青年科学家论坛</title>
+	<link href="__PUBLIC__/logo.png" rel="SHORTCUT ICON">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Front/css/header.css" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Front/css/content2.css" />
+	<script type="text/javascript" src="__PUBLIC__/Front/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Front/js/koala.min.1.5.js"></script>
+</head>
+<body>
+	<include file="./Application/Home/View/Public/header.html" />
+	<div id="content2">
+		<h1>校园图像</h1>
+		<hr />
+		<span>
+			<!-- 下面这句从数据库遍历图片 -->
+			<volist name="imgs" id="vo">
+				<img src="__PUBLIC__/img/{$vo.img_name}" alt="" class="xytc-img">
+			</volist>
+		</span>
+	</div>
+	<include file="./Application/Home/View/Public/footer.html" />
+</body>
+</html>

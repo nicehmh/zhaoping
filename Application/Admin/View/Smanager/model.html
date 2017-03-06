@@ -1,0 +1,29 @@
+<include file="Public:header"/>
+        <div class="container-fluid-full">
+    <div class="row-fluid">
+       <include file="Public:slidersm"/>
+             <div class="right content">
+                <div class="right-menu">
+                  <p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>{$list.class}</p>
+                  
+                </div>
+                <div class="main">
+                <div class="panel panel-default">
+                     <div class="panel-heading">
+                <h3 class="panel-title">
+                    <i class="fa  icon-folder-open"></i>
+                   {$list.title}             
+                </h3>
+           </div>
+		      
+                <form action="__URL__/record_sy?id={$list.id}" method="POST" name="jaj">
+				 &nbsp;&nbsp; <input name="title" id="mtk3" class="form-control" placeholder="标题" type="text" value="{$list.title}" style="width:75%;margin-left:25px;"/><br/>
+                &nbsp;&nbsp; &nbsp;&nbsp; <textarea rows="10" class="form-control" style="width:75%;display:inline-block;" name="con">{$list.content}</textarea>
+                <input type="submit" class="btn btn-success right right-d2" style="margin-right:100px;margin-top:140px;"value="确定"/></br></br>
+                 </form>                     
+              </div>                        
+            </div>
+        </div>      
+      </div>
+    </div>
+    <include file="Public:footer"/>

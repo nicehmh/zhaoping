@@ -1,0 +1,59 @@
+<include file="Public:header"/>
+   <script type="text/javascript">
+         function f1(numid){
+	    var xhr=new XMLHttpRequest();
+	    xhr.onreadystatechange=function(){
+	         if(xhr.readyState==4){
+		    if(xhr.responseText==1){
+		       // alert('hello');
+		       window.location.href="__URL__/none";
+		    }
+		 }
+	    } 
+	    xhr.open('get',"__URL__/cal?numid="+numid);
+	    xhr.send(null);
+	    // window.location.href="__URL__/cal?numid="+numid;
+	 }
+   </script>
+      	<div class="container-fluid-full">
+		<div class="row-fluid">
+		   <include file="Public:sliderxe"/>
+             <div class="right content">
+                <div class="right-menu">
+                	<p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>未评审</p>
+                	
+                </div>
+                <div class="main">
+               <div class="panel panel-default">
+                     <div class="panel-heading">
+					      <h3 class="panel-title">
+					          <i class="fa  icon-folder-open"></i>
+					         未评审的申请表		          
+					      </h3>				
+					 </div>
+         
+					  <table class="table table-bordered table-striped border">
+                                 <thead class="top">
+								  <tr>
+								  	<th style="text-align:center;">申请人</th>
+								  	<th style="text-align:center;">专业领域</th>
+								  	<th style="text-align:center;">编辑</th>
+								  </tr>
+								   </thead>
+								   <tbody>
+								   <volist name="list" id="list">
+								   <tr>
+								   <td style="text-align:center;">{$list.name}</td>
+								   <td style="text-align:center;">{$list.major}</td>
+								   <td style="text-align:center;"><a class="btn btn-sm btn-info  " href="__URL__/hl?numid={$list.numid}&aid={$list.aid}"><i class="icon-pencil">评审</i></a>
+                                       <a class="btn btn-sm btn-info " href="javascript:f1({$list.numid});"><i class="icon-pencil">取消评审</i></a></td>
+								   </tr>	
+                                 				</volist>		   
+						      </tbody>							    
+				  			   </table>			
+                         </div>              
+               </div>
+             </div>      
+		</div>
+		</div>
+		<include file="Public:footer"/>

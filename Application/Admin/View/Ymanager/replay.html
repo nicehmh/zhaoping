@@ -1,0 +1,110 @@
+<include file="Public:header"/>
+      	<div class="container-fluid-full">
+		<div class="row-fluid">
+		   <include file="Public:sliderym"/>
+             <div class="right content">
+                <div class="right-menu">
+                	<p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>申请状态</p>
+                	
+                </div>
+                <div class="main">
+                <div class="panel panel-default">
+                     <div class="panel-heading">
+					      <h3 class="panel-title">
+					          <i class="fa  icon-folder-open"></i>
+					         申请状态管理		          
+					      </h3>				
+					 </div>
+         
+					  <table class="table table-bordered table-striped border">
+                           </br>
+								 <div class="progress" style="width:700px;">
+								   <div class="{$list.ys}" role="progressbar" 
+								      aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" 	
+								      style="width: {$list.rt}%;"  >
+								      <span>{$list.state}</span>
+								   </div>
+								</div></br>
+								<input type="button" class="btn btn-info btn-sm right right-d2"  value="申请收悉" onclick="f1('d1');" id="d1"/></br>
+
+								<input type="button" class="btn btn-info btn-sm right right-d2" value="通过初审"  onclick="f1('d2');" id="d2"/></br>
+
+								<input type="button" class="btn btn-info btn-sm right right-d2" value="正式邀请"  onclick="f1('d3');" id="d3"/></br>
+								
+								<input type="button" class="btn btn-info btn-sm right right-d2" data-toggle="modal" 
+								   data-target="#myModal" value="发送邀请函"/></br></br></br></br>
+
+
+								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" 
+								   aria-labelledby="myModalLabel" aria-hidden="true">
+								   <div class="modal-dialog">
+								      <div class="modal-content">
+								         <div class="modal-header">
+								            <button type="button" class="close" 
+								               data-dismiss="modal" aria-hidden="true">
+								                  &times;
+								            </button>
+								            <h4 class="modal-title" id="myModalLabel">
+								               请填写内容
+								            </h4>
+								         </div>
+									 
+								         <div class="modal-body">
+								           <textarea class="form-control" rows="3" id="ModalLabel" name="ModalLabel"></textarea>
+								         </div>
+								         <div class="modal-footer">
+								            <button type="button" class="btn btn-default" 
+								               data-dismiss="modal">关闭
+								            </button>
+								            <button class="btn btn-primary" onclick="f2()">
+								               提交
+								            </button>
+								         </div>
+									
+								      </div>
+								</div>
+								</div>    
+
+
+				  	 </table>			
+                         </div>                           
+               </div>
+
+             </div>      
+		</div>
+		</div>
+		<include file="Public:footer"/>
+    <script>
+    function f1(num){
+		var state=document.getElementById(num).value;
+		//alert(state);exit;
+		var s1=num.substr(1, 1);
+		var s2={$list.num};
+		if(s2<s1){
+		//window.location.href="__URL__/restate?state="+state+"&aid={$aid}";
+		    var xhr=new XMLHttpRequest();
+	        xhr.onreadystatechange=function(){
+	         if(xhr.readyState==4){
+		      alert(xhr.responseText);
+			  window.location.href="__URL__/replay?aid={$_SESSION['aid']}";
+		     }
+	        }
+	        xhr.open('get',"__URL__/restate?state="+state+"&aid={$aid}");
+	        xhr.send(null);
+		}else{
+		    alert("您已回复过");
+		}
+	}
+	function f2(){
+	   var ModalLabel=document.getElementById('ModalLabel').value;
+	   var xhr=new XMLHttpRequest();
+	        xhr.onreadystatechange=function(){
+	         if(xhr.readyState==4){
+		      alert(xhr.responseText);
+			  window.location.href="__URL__/replay?aid={$_SESSION['aid']}";
+		     }
+	        }
+	   xhr.open('get',"__URL__/send_con?ModalLabel="+ModalLabel);
+	   xhr.send(null);
+	}
+    </script>

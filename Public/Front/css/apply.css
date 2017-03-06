@@ -1,0 +1,156 @@
+#apply{
+	width:76%;
+	margin-top:20px;
+	min-height:680px;
+	margin-left:12%;
+	background:#FBFBFB;
+	border:1px solid #ccc;
+}
+#apply h1{
+	font-size:22px;
+	font-weight:normal;
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:5px;
+	letter-spacing:3px;
+	line-height:30px;
+	color:#333;
+}
+#apply table{
+	font-size:13px;
+	width:90%;
+	margin-left:5%;
+	border:1px solid black;
+	border-collapse:collapse;
+}
+#apply table tr{
+	text-align:center;
+}
+#apply table tr td{
+	border:1px solid black;
+	min-width:100px;
+	height:35px;
+}
+table tr td.title{
+	width:346px;
+}
+table tr td.long{
+	width:33%;
+}
+.longtr{
+	height:200px;
+}
+
+form{
+	margin-bottom:40px;
+	letter-spacing:2px;
+}
+h2{
+	margin-left:5%;
+	font-size:15px;
+	font-weight:normal;
+	line-height:40px;
+}
+form span{
+	display:block;
+	margin-top:20px;
+	margin-left:40%;
+}
+.denglu{
+	margin-top:8px;
+	display:inline-block;
+	height:30px;
+	line-height:25px;
+	width:150px;
+	color:white;
+	text-align:center;
+	letter-spacing:4px;
+	border:0px;
+	border-radius:5px;
+}
+.one{
+	background: #44b549;
+	margin-top:10px;
+}
+input.one:hover{
+	background:#2F9833;
+}
+select{
+	letter-spacing:0px;
+}
+input{
+	padding:2px;
+	padding-left:3px;
+}
+input.edu{
+	width:90%;
+}
+textarea{
+	width:99.5%;
+	border:0px;
+	height:200px;
+	padding:2px;
+}
+#preview{
+	width:90px;
+	height:90px;
+	border:1px solid #000;
+	overflow:hidden;
+	display:inline-block;
+}
+#imghead{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);
+}
+#img{
+	width:160px;
+}
+#imghead{
+	width:90px;
+	height:90px;
+}
+.apply_head{
+	margin-left:5%;
+}
+.apply_head h2{
+	color:orange;
+	margin-left:0;
+	font-size:14px;
+}
+.apply_head h2 i{
+	font-style:normal;
+}
+i.add{
+	color:orange;
+	font-style:normal;
+	font-size:13px;
+	cursor:pointer;
+}
+.apply_head a.change_time{
+	color:red;
+	margin-left:10px;
+	font-size:14px;
+}
+i.must_right{
+	font-style:normal;
+	color:red;
+	float:right;
+	margin-right:70px;
+	line-height:40px;
+}
+i.must{
+	color:red;
+	font-style:normal;
+}
+.state_red{
+	color:red;
+}
+@media screen and (max-width:1080px){
+	#apply{
+		width:98%;
+		
+		min-height:680px;
+		margin-left:1%;
+		background:#FBFBFB;
+		border:1px solid #ccc;
+	}
+}

@@ -1,0 +1,86 @@
+<include file="Public:header"/>
+      	<div class="container-fluid-full">
+		<div class="row-fluid">
+	 <script type="text/javascript">
+         function f1(numid){
+	    var xhr=new XMLHttpRequest();
+	    xhr.onreadystatechange=function(){
+	         if(xhr.readyState==4){
+		       if(xhr.responseText==1){
+			      alert('取消成功');
+		          window.location.href="__URL__/shouye";
+		       }
+		 }
+	    } 
+	    xhr.open('get',"__URL__/cal?numid="+numid);
+	    xhr.send(null);
+	    // window.location.href="__URL__/cal?numid="+numid;
+	 }
+   </script>	   
+               
+                <div class="main" style="height:650px;">
+                <div class="panel panel-default">
+                     <div class="panel-heading">
+					      <h3 class="panel-title">
+					          <i class="fa  icon-folder-open"></i>
+					         已收悉的申请表
+ 
+					      </h3>
+					 </div>
+                    
+					 
+					 <table class="table table-bordered table-striped border">
+                                 <thead class="top">
+								  <tr>
+								  	<th style="text-align:center;">申请人</th>
+								  	<th style="text-align:center;">专业领域</th>
+									<th style="text-align:center;">编辑</th>
+									<th style="text-align:center;">状态</th>
+								  </tr>
+								   </thead>
+								   <tbody>
+								<volist name="list1" id="vo">
+								   <tr>
+								   <td style="text-align:center;">{$vo.name}</td>
+								   <td style="text-align:center;">{$vo.major}</td>
+								   <td style="text-align:center;" id="yps"><a class="btn btn-sm btn-info  " href="__URL__/pingshen?numid={$vo.numid}&aid={$vo.aid}"><i class="icon-pencil">评审</i></a>
+								   <a class="btn btn-sm btn-info " href="javascript:f1({$vo.numid});"><i class="icon-pencil">取消评审</i></a></td>
+                                     <!--  <a class="btn btn-sm btn-info " href="__URL__/hl?numid={$vo.numid}&aid={$vo.aid}"><i class="icon-pencil">重新评审</i></a></td>-->
+                                       <td style="text-align:center;color:red;">{$vo.kp2}</td>
+								   </tr>	
+                                </volist>	 	
+                                <volist name="list2" id="vo">
+								   <tr>
+								   <td style="text-align:center;">{$vo.name}</td>
+								   <td style="text-align:center;">{$vo.major}</td>
+								   <td style="text-align:center;" id="yps"><a class="btn btn-sm btn-info  " href="__URL__/chakan?numid={$vo.numid}"><i class="icon-pencil">查看评审</i></a>
+								   <a class="btn btn-sm btn-info  " href="__URL__/pingshen?numid={$vo.numid}&aid={$vo.aid}"><i class="icon-pencil">继续评审</i></a></td>
+                                       <td style="text-align:center;color:red;">{$vo.kp2}</td>
+								   </tr>	
+                                </volist>	 	
+                                <volist name="list3" id="vo">
+								   <tr>
+								   <td style="text-align:center;">{$vo.name}</td>
+								   <td style="text-align:center;">{$vo.major}</td>
+								   <td style="text-align:center;" id="yps"><a class="btn btn-sm btn-info  " href="__URL__/pingshen?numid={$vo.numid}&aid={$vo.aid}"><i class="icon-pencil">评审</i></a>
+								    <!--<a class="btn btn-sm btn-info " href="javascript:f1({$list.numid});"><i class="icon-pencil">取消评审</i></a></td>-->
+                                     <!--  <a class="btn btn-sm btn-info " href="__URL__/hl?numid={$vo.numid}&aid={$vo.aid}"><i class="icon-pencil">重新评审</i></a></td>-->
+                                       <td style="text-align:center;color:red;">{$vo.kp2}</td>
+								   </tr>	
+                                </volist>	 
+                                <volist name="list4" id="vo">
+								   <tr>
+								   <td style="text-align:center;">{$vo.name}</td>
+								   <td style="text-align:center;">{$vo.major}</td>
+								   <td style="text-align:center;" id="yps"><a class="btn btn-sm btn-info  " href="__URL__/chakan?numid={$vo.numid}"><i class="icon-pencil">查看评审</i></a>
+                                       <td style="text-align:center;color:red;">{$vo.kp2}</td>
+								   </tr>	
+                                </volist>	 										
+						      </tbody>		
+                       </table>			
+               </div>
+             </div>
+		</div>
+		</div>
+	
+		<include file="Public:footer"/>

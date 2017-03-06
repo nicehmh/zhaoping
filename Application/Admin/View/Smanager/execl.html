@@ -1,0 +1,31 @@
+<include file="Public:header"/>
+      	<div class="container-fluid-full">
+		<div class="row-fluid">
+		   <include file="Public:slidersm"/>
+             <div class="right content">
+                <div class="right-menu">
+                	<p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>导出信息</p>
+                	
+                </div>
+                <div class="main">
+                <div class="panel panel-default">
+                     <div class="panel-heading">
+					      <h3 class="panel-title">
+					          <i class="fa  icon-folder-open"></i>
+					        导出信息		          
+					      </h3>
+					 </div>
+					       </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</br></br>
+                              <input type="button" class="btn btn-info inline personbtn right"  value="导出" onclick="f1()"/>	
+              </div>                        
+            </div>
+        </div>      
+		  </div>
+		</div>
+		<include file="Public:footer"/>
+		<script>
+		    function f1(){
+			    // alert('hello');
+				 window.location.href="__URL__/export";
+			}
+		</script>

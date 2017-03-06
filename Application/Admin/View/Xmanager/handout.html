@@ -1,0 +1,162 @@
+<include file="Public:header"/>
+
+      	<div class="container-fluid-full">
+		<div class="row-fluid">
+		   <include file="Public:sliderxm"/>
+             <div class="right content">
+                <div class="right-menu">
+                	<p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>材料分发</p>
+					 <a class="right right-d2"  style="color:blue;" href="__URL__/biaoge">导出选择</a>
+                </div>
+                <div class="main">
+                <div class="panel panel-default">
+                     <div class="panel-heading">
+					      <h3 class="panel-title">
+					          <i class="fa  icon-folder-open"></i>
+					         分发申请表		          
+					      </h3>				
+					 </div>
+         
+					  <table class="table table-bordered table-striped border">
+                                 <thead class="top">
+								  <tr>
+								    <th style="text-align:center;">选择</th>
+								  	<th style="text-align:center;">专业领域</th>
+								  	<th style="text-align:center;">申请人</th>
+								  	<th style="text-align:center;">编辑</th>
+										<th style="text-align:center;">委托人</th>
+								  </tr>
+								   </thead>
+								   <tbody>
+								     <volist name="listl" id="vol">
+								     	<!--<if condition="$vol['name'] neq null ">-->
+
+								     	 
+								   <tr>
+								   <td style="text-align:center;">
+								   <input type="checkbox" value="{$vol.numid}" name="selected"/>
+								   </td>
+								   <td style="text-align:center;">{$vol.major}</td>
+								   <td style="text-align:center;">{$vol.name}</td>
+								    <td style="text-align:center;"><a class="btn btn-xs btn-info" href="__URL__/hl?numid={$vol.numid}&aid={$vol.aid}" ><i class="icon-edit">查看</i></a>
+								  <!-- <a class="btn btn-xs  btn-success " href=""><i class="icon-trash">转发</i></a>-->
+								   
+								   <!--<a class="btn btn-xs btn-primary" href="__URL__/replay?aid={$vol.aid}"><i class="icon-comment-alt">回复</i></a>
+								    <a class="btn btn-xs  btn-success " href="__URL__/export?numid={$vol.numid}&aid={$vol.aid}"><i class="icon-edit">导出表</i></a>--></td>
+								  <td style="text-align:center;">
+								    <div class="dropdown">
+                                           <button type="button" class="btn dropdown-toggle" id="dropdownMenu1"  data-toggle="dropdown">
+                                                查看
+                                                <span class="caret"></span>
+                                           </button>
+                                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                            <li role="presentation" class="dropdown-header">专家</li>
+											<php>
+											foreach($trp2[$vol['numid']] as $arp){ 
+											</php>
+                                            <li role="presentation" >
+                                                     <a role="menuitem" tabindex="-1" href="javascript:f2({$arp.pid},{$vol.numid});">{$arp.name}</a>
+                                            </li>
+                                           <php>
+										         }
+										   </php>
+                                           <li role="presentation" class="divider"></li>
+                                          <li role="presentation" class="dropdown-header">校管理员</li>
+                                            <php>
+											foreach($trp1[$vol['numid']] as $arp1){ 
+											</php>
+                                            <li role="presentation" >
+                                                     <a role="menuitem" tabindex="-1" href="javascript:f3({$arp1.id});">{$arp1.name}</a>
+                                            </li>
+                                           <php>
+										         }
+										   </php>
+                                        </ul>
+                                    </div>
+								  
+								  
+								  </td>
+								  </tr>	
+								  <!--</if>-->
+                                                                  </volist>
+								 
+								   	<tr>					   												  
+								   <td colspan="4"><input onclick="selectAll()" type="checkbox"   name="controlAll" style="controlAll" id="controlAll"/>全选</td></tr>
+
+
+<script>
+function selectAll(){
+ var checklist = document.getElementsByName ("selected");
+   if(document.getElementById("controlAll").checked)
+   {
+   for(var i=0;i<checklist.length;i++)
+   {
+      checklist[i].checked = 1;
+   }
+ }else{
+  for(var j=0;j<checklist.length;j++)
+  {
+     checklist[j].checked = 0;
+  }
+ }
+}
+     function f1(){
+      var ex=document.getElementById("selex").value;
+	  var ad=document.getElementById("ad").value;
+        var objs = document.getElementsByName ("selected");
+         allValues='';      
+         for(var i =0;i<objs.length;i++){    
+              var obj = objs[i];    
+              if(obj.checked==1){  
+                   allValues+=obj.value+",";     
+              }  
+        }    
+       // alert(allValues);
+       //window.location.href="__URL__/xzj?all="+allValues+"&pid="+ex;
+        var xhr = new XMLHttpRequest();
+	xhr.onreadystatechange=function(){
+	     if(xhr.readyState==4){
+	        alert(xhr.responseText);
+		window.location.href="__URL__/handout";
+	     }
+	}
+	xhr.open('get',"__URL__/xzj?all="+allValues+"&pid="+ex+"&id="+ad);
+	xhr.send(null);
+    }
+	function f2(pid,numid){
+	    var xhr=new XMLHttpRequest();
+		xhr.onreadystatechange=function(){
+		    if(xhr.readyState==4){
+			   alert(xhr.responseText);
+			}
+		}
+		xhr.open('get','__URL__/read_state?pid='+pid+'&numid='+numid);
+		xhr.send(null);
+	}
+	function f3(id){
+	    window.location.href="__URL__/jr_Ymanager?id="+id; 
+	}
+</script>
+						      </tbody>							  
+				  			   </table>			
+                         </div>                           
+						<input type="button" class="btn btn-info inline personbtn right"  value="确定" onclick="f1()"/>	
+						     发送至:<select class="form-control right right-d2" style="width:232px;" id="ad">
+                                            <option>学院管理员</option>
+					    <volist name="list2" id="vo2">
+                                               <option value="{$vo2.id}">{$vo2.college}</option>
+                                           </volist>
+                                         
+                                        </select>		
+                                        <select class="form-control right right-d2" style="width:232px;" id="selex" >
+                                            <option>学校通讯评审</option>
+					    <volist name="list" id="vo">
+                                               <option value="{$vo.pid}">{$vo.name}</option>
+                                           </volist>
+                                        </select>								
+						
+
+             </div>      
+		</div>
+		</div>
+		<include file="Public:footer"/>

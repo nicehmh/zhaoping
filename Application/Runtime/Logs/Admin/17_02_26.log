@@ -1,0 +1,526 @@
+[ 2017-02-26T11:11:00+08:00 ] 122.205.71.183 /index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-26T11:11:04+08:00 ] 122.205.71.183 /index.php/Admin/Login/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = '55' AND `password` = '55' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-02-26T11:11:04+08:00 ] 122.205.71.183 /index.php/Admin/Xmanager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = '55' AND `grant` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_proform` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `zp_professior` [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `numid` FROM `zp_proform`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `grant` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_professior` WHERE `grant` = 2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: hk C:\wamp\www\zhaopin\Application\Admin\Controller\XmanagerController.class.php 第 62 行.
+NOTIC: [8] Undefined variable: klp C:\wamp\www\zhaopin\Application\Admin\Controller\XmanagerController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: tr C:\wamp\www\zhaopin\Application\Admin\Controller\XmanagerController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\160404f9ccfe64e795931bd711cc3bbe.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-26T11:11:07+08:00 ] 122.205.71.183 /index.php/admin/Xmanager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = '55' AND `grant` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_proform` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_professior` [ RunTime:0.0156s ]
+SQL: SELECT DISTINCT  `numid` FROM `zp_proform`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `grant` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_professior` WHERE `grant` = 2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: hk C:\wamp\www\zhaopin\Application\Admin\Controller\XmanagerController.class.php 第 62 行.
+NOTIC: [8] Undefined variable: klp C:\wamp\www\zhaopin\Application\Admin\Controller\XmanagerController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: tr C:\wamp\www\zhaopin\Application\Admin\Controller\XmanagerController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\160404f9ccfe64e795931bd711cc3bbe.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-26T11:11:08+08:00 ] 122.205.71.183 /index.php/admin/Xmanager/handout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = '55' AND `grant` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_professior` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `grant` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_professior` WHERE `grant` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SELECT `numid` FROM `zp_application` ORDER BY numid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_adform` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_zjform` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 78 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 78  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 78  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 77  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 77  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 76  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 76  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 75  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 75  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 74 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 74  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 74  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 73 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 73  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 73  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 72 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 72  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 72  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 71 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 71  [ RunTime:0.0156s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 71  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 70 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 70  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 70  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 69 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 69  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 69  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 68 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 68  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 68  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 67 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 67  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 67  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 66 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 66  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 66  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 65 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 65  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 65  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 64 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 64  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 64  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 63 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 63  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 63  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 62 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 62  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 62  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 61 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 61  [ RunTime:0.0156s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 61  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 60 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 60  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 60  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 59 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 59  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 59  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 58  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 58  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 57 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 57  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 57  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 56 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 56  [ RunTime:0.0156s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 56  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 55 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 55  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 55  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 54 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 54  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 54  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 53 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 53  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 53  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 52 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 52  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 52  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 51 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 51  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 51  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 50 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 50  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 50  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 49 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 49  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 49  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 48 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 48  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 48  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 47 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 47  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 47  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 46 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 46  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 46  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 45 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 45  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 45  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 44 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 44  [ RunTime:0.0000s ]
+SQL: SELECT `pid`,`name` FROM `zp_professior` WHERE `pid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid`,`name` FROM `zp_professior` WHERE `pid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 44  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `zp_administrator` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 43 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 43  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 43  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 42 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 42  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 42  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 41  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 41  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 40  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 40  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 39 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 39  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 38 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 38  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 38  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 37  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 37  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 36 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 36  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 36  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 35 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 35  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 35  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 34  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 34  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 33 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 33  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 33  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 32 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 32  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 32  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 31 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 31  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 31  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 30 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 30  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 30  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 29  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 29  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 28  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 28  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 27 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 21 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 20 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `zp_zjform` WHERE `numid` = 19  [ RunTime:0.0000s ]
+SQL: SELECT `ad_id` FROM `zp_adform` WHERE `numid` = 19  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 78 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 78 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 77 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 77 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 76 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 76 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 75 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 75 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 73 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 73 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 72 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 72 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 71 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 71 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 66 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 66 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 65 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 65 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 64 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 64 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 63 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 63 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 62 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 62 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 60 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 60 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 59 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 59 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 54 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 54 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 52 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 52 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 50 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 50 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 49 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 49 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 46 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 46 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 43 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 43 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 41 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 41 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 40 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 40 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 39 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 39 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 38 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 38 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 37 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 37 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 35 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 35 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 33 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 33 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 32 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 32 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 30 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 30 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 29 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 29 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 27 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 27 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 26 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 26 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 25 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 25 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 24 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 24 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 22 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 22 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [8] Undefined offset: 20 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 85 行.
+NOTIC: [8] Undefined offset: 20 C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\zhaopin\Application\Runtime\Cache\Admin\27555b3bd8d147a9395ea9af1894cbd7.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-26T11:11:13+08:00 ] 122.205.71.183 /index.php/Admin/Xmanager/hl?numid=73&aid=76
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = '55' AND `grant` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 73 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 76  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 76  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-26T11:11:21+08:00 ] 122.205.71.183 /index.php/Admin/Xmanager/hl?numid=66&aid=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zp_administrator` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_administrator` WHERE `user` = '55' AND `grant` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_application` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `zp_education_experience` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zp_work_experience` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_application` WHERE `numid` = 66 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_education_experience` WHERE `aid` = 68  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zp_work_experience` WHERE `aid` = 68  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-26T20:56:15+08:00 ] 218.199.166.115 /index.php/admin/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
